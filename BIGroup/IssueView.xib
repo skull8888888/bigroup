@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IssueViewController" customModule="BIGroup" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1213"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Заполните заявку и мы починим любую поломку в вашей квартире или на этажной площадке." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZl-Cc-nyH">
+                    <rect key="frame" x="16" y="16" width="343" height="54"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваши данные" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I83-yn-hIt">
+                    <rect key="frame" x="16" y="86" width="343" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmQ-fh-O6o" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                    <rect key="frame" x="16" y="120" width="343" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="nnm-ul-I6o"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="ФИО"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAQ-lI-XWQ" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                    <rect key="frame" x="16" y="184" width="343" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="EI7-ta-6am"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Email"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PyJ-82-spy" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                    <rect key="frame" x="16" y="248" width="343" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="Mdi-d6-9H1"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Телефон"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A9p-dJ-4Go" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                    <rect key="frame" x="18" y="312" width="341" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="InF-3T-RyI"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="ИИН"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MMD-w5-tLs" customClass="DropInputView" customModule="BIGroup" customModuleProvider="target">
+                    <rect key="frame" x="16" y="376" width="343" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="FMl-ta-vfz"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Объект"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLU-t6-AYC" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                    <rect key="frame" x="16" y="440" width="343" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="r4F-Ub-M7k"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="№ квартиры"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j8z-qL-KBA" customClass="DropInputView" customModule="BIGroup" customModuleProvider="target">
+                    <rect key="frame" x="16" y="504" width="343" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="Eua-wD-4zg"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Тип заявки"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VZl-Cc-nyH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="36R-rA-2iW"/>
+                <constraint firstAttribute="trailing" secondItem="vAQ-lI-XWQ" secondAttribute="trailing" constant="16" id="5r6-JC-UUT"/>
+                <constraint firstAttribute="trailing" secondItem="MMD-w5-tLs" secondAttribute="trailing" constant="16" id="7Og-Y0-dbI"/>
+                <constraint firstItem="vAQ-lI-XWQ" firstAttribute="top" secondItem="pmQ-fh-O6o" secondAttribute="bottom" constant="16" id="84r-Hf-tGw"/>
+                <constraint firstItem="A9p-dJ-4Go" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="DNj-5W-LgX"/>
+                <constraint firstItem="MMD-w5-tLs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="H8H-gP-HvX"/>
+                <constraint firstAttribute="trailing" secondItem="VZl-Cc-nyH" secondAttribute="trailing" constant="16" id="IPU-rr-ySe"/>
+                <constraint firstItem="PyJ-82-spy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="LO4-n8-0m1"/>
+                <constraint firstItem="pmQ-fh-O6o" firstAttribute="top" secondItem="I83-yn-hIt" secondAttribute="bottom" constant="16" id="O8c-3X-Vjt"/>
+                <constraint firstItem="VZl-Cc-nyH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="Pjy-31-Owq"/>
+                <constraint firstAttribute="trailing" secondItem="PyJ-82-spy" secondAttribute="trailing" constant="16" id="QsJ-j9-KnM"/>
+                <constraint firstItem="MMD-w5-tLs" firstAttribute="top" secondItem="A9p-dJ-4Go" secondAttribute="bottom" constant="16" id="RZs-JI-gPi"/>
+                <constraint firstItem="pmQ-fh-O6o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="TPf-3b-8UU"/>
+                <constraint firstItem="bLU-t6-AYC" firstAttribute="top" secondItem="MMD-w5-tLs" secondAttribute="bottom" constant="16" id="WZc-lT-7a1"/>
+                <constraint firstAttribute="trailing" secondItem="j8z-qL-KBA" secondAttribute="trailing" constant="16" id="XHk-NJ-9dm"/>
+                <constraint firstItem="j8z-qL-KBA" firstAttribute="top" secondItem="bLU-t6-AYC" secondAttribute="bottom" constant="16" id="bfK-Vk-RMR"/>
+                <constraint firstAttribute="trailing" secondItem="bLU-t6-AYC" secondAttribute="trailing" constant="16" id="c7T-8h-v8V"/>
+                <constraint firstAttribute="trailing" secondItem="A9p-dJ-4Go" secondAttribute="trailing" constant="16" id="cHd-Pw-ZLo"/>
+                <constraint firstItem="bLU-t6-AYC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="frc-Xw-7sk"/>
+                <constraint firstItem="vAQ-lI-XWQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="jYJ-3a-l23"/>
+                <constraint firstAttribute="trailing" secondItem="pmQ-fh-O6o" secondAttribute="trailing" constant="16" id="lNq-WW-eAo"/>
+                <constraint firstItem="A9p-dJ-4Go" firstAttribute="top" secondItem="PyJ-82-spy" secondAttribute="bottom" constant="16" id="pZ7-74-upt"/>
+                <constraint firstItem="I83-yn-hIt" firstAttribute="top" secondItem="VZl-Cc-nyH" secondAttribute="bottom" constant="16" id="pfX-cQ-fFC"/>
+                <constraint firstItem="I83-yn-hIt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="sQH-a6-0kQ"/>
+                <constraint firstItem="PyJ-82-spy" firstAttribute="top" secondItem="vAQ-lI-XWQ" secondAttribute="bottom" constant="16" id="uoi-bR-sYc"/>
+                <constraint firstAttribute="trailing" secondItem="I83-yn-hIt" secondAttribute="trailing" constant="16" id="xoI-y6-y2g"/>
+                <constraint firstItem="j8z-qL-KBA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="yrp-vp-Uw2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="327.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1714"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Процедура передачи помещения для проведения ремонтных работ включает в себя несколько этапов:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfo-Km-xg9">
+                    <rect key="frame" x="16" y="16" width="343" height="72"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Vz9-un-uUj">
+                    <rect key="frame" x="16" y="104" width="343" height="48"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="K6v-2b-RZQ">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="SeL-BX-gas"/>
+                                <constraint firstAttribute="height" constant="48" id="gad-W6-jR2"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подписание акта приема-передачи." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALc-EZ-DPS">
+                            <rect key="frame" x="64" y="0.0" width="279" height="48"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riw-qH-U5b">
+                    <rect key="frame" x="16" y="168" width="343" height="125.5"/>
+                    <mutableString key="text">Для этого необходимо проехать на объект и осуществить осмотр, приобретенного Вами помещения. В случае наличия замечаний, необходимо занести их в акт и подписать оба экземпляра. Далее Вы можете дождаться устранения замечаний, повторно осмотреть и подписать акт.</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hn4-gC-F6w">
+                    <rect key="frame" x="16" y="325.5" width="343" height="24"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="BQ5-Z5-H4F">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="g25-vP-dsg"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подписание дополнительного соглашения на проведение работ по чистовой отделке." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vaq-Na-6iw">
+                            <rect key="frame" x="64" y="0.0" width="279" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Необходимо проехать в отдел по работе с клиентами в офис центра продаж (далее – ОРК ЦП)." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIr-Y1-NFA">
+                    <rect key="frame" x="16" y="365.5" width="343" height="54"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="kFE-oW-8YP">
+                    <rect key="frame" x="16" y="451.5" width="343" height="24"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="vHg-Fs-ukW">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="e1D-tF-Bx7"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подписание договора с коммунальными службами города" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKW-p6-UYb">
+                            <rect key="frame" x="64" y="0.0" width="279" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wA7-gO-DKK">
+                    <rect key="frame" x="16" y="491.5" width="343" height="107.5"/>
+                    <string key="text">Для Вашего удобства, компания берет на себя заботы по открытию лицевых счетов по оплате за водоснабжение, электричество и тепло. Данная процедура производится в ОРК ЦП. Услуга распространяется только на жилые помещения.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ubB-oh-DB7">
+                    <rect key="frame" x="16" y="631" width="343" height="24"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="IEm-Ti-ewj">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="LeR-3K-d7N"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подписание договора на обслуживание с сервисной службой" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFF-gc-waQ">
+                            <rect key="frame" x="64" y="0.0" width="279" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idO-p9-L9z">
+                    <rect key="frame" x="16" y="671" width="343" height="107.5"/>
+                    <string key="text">Это является последним этапом, за которым следует выдача талона для получения ключей. На данном этапе необходимо внести единоразовую оплату за установку домофона и вывоз строительного мусора, а также предоплату за сервисное обслуживание.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сами ключи Вы можете получить непосредственно на объекте, предъявив талон." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlv-Cj-z8o">
+                    <rect key="frame" x="16" y="810.5" width="343" height="72"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVM-AT-XTp">
+                    <rect key="frame" x="16" y="898.5" width="343" height="125.5"/>
+                    <mutableString key="text">Важно прибыть на получение ключей в первые 3-5 дней со дня сдачи объекта, так как для Вашего удобства в данный период ОРК выезжает и производит оформление передачи ключей непосредственно на самом объекте, т.е. у Вас будет возможность пройти все этапы получения ключей в своем жилом комплексе.</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="При себе необходимо иметь:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTP-KR-onB">
+                    <rect key="frame" x="16" y="1056" width="343" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1R-xy-gik">
+                    <rect key="frame" x="16" y="1096" width="343" height="197"/>
+                    <string key="text">• Оригинал удостоверения личности• Оригинал предварительного/инвестиционного договора/договор долевого участия• Оригинал дополнительных соглашений/договоров цессии (при наличии)• Оригинал подписанного акта приема передачи помещения</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Если помещение оформлено на несовершеннолетнего ребенка:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIX-kq-6Vj">
+                    <rect key="frame" x="16" y="1325" width="343" height="48"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfs-Kn-Q4W">
+                    <rect key="frame" x="16" y="1389" width="343" height="304.5"/>
+                    <mutableString key="text">• В случае если ребенок старше 13 лет, требуется личное присутствие ребенка• Оригинал свидетельства о рождении• Оригинал удостоверения личности законного представителя• Оригинал предварительного/инвестиционного договора/договор долевого участия
+• Оригинал дополнительных соглашений/договоров цессии (при наличии)• Оригинал подписанного акта приема передачи помещения</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jfo-Km-xg9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="4sP-5K-GCw"/>
+                <constraint firstItem="oIr-Y1-NFA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="8rw-yV-Gsb"/>
+                <constraint firstAttribute="trailing" secondItem="ubB-oh-DB7" secondAttribute="trailing" constant="16" id="BL1-7A-RGt"/>
+                <constraint firstAttribute="trailing" secondItem="iVM-AT-XTp" secondAttribute="trailing" constant="16" id="G4s-rM-8cI"/>
+                <constraint firstItem="hn4-gC-F6w" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="GEh-7r-hMM"/>
+                <constraint firstItem="riw-qH-U5b" firstAttribute="top" secondItem="Vz9-un-uUj" secondAttribute="bottom" constant="16" id="GKV-U0-FJd"/>
+                <constraint firstAttribute="trailing" secondItem="wA7-gO-DKK" secondAttribute="trailing" constant="16" id="HXL-8B-Uzu"/>
+                <constraint firstAttribute="trailing" secondItem="eTP-KR-onB" secondAttribute="trailing" constant="16" id="Hn9-f7-A1j"/>
+                <constraint firstItem="iVM-AT-XTp" firstAttribute="top" secondItem="Vlv-Cj-z8o" secondAttribute="bottom" constant="16" id="JpJ-Dt-tXg"/>
+                <constraint firstItem="Vz9-un-uUj" firstAttribute="top" secondItem="jfo-Km-xg9" secondAttribute="bottom" constant="16" id="KlG-f2-FQD"/>
+                <constraint firstItem="iVM-AT-XTp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Ko3-6F-rgH"/>
+                <constraint firstAttribute="trailing" secondItem="hn4-gC-F6w" secondAttribute="trailing" constant="16" id="LGC-2X-Ok2"/>
+                <constraint firstAttribute="trailing" secondItem="Vlv-Cj-z8o" secondAttribute="trailing" constant="16" id="M6w-XB-HK5"/>
+                <constraint firstItem="F1R-xy-gik" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="NVW-bm-Q4P"/>
+                <constraint firstAttribute="trailing" secondItem="F1R-xy-gik" secondAttribute="trailing" constant="16" id="O0s-R5-YnE"/>
+                <constraint firstAttribute="trailing" secondItem="riw-qH-U5b" secondAttribute="trailing" constant="16" id="QNV-1M-RkL"/>
+                <constraint firstItem="eTP-KR-onB" firstAttribute="top" secondItem="iVM-AT-XTp" secondAttribute="bottom" constant="32" id="QwO-70-cmw"/>
+                <constraint firstItem="oIr-Y1-NFA" firstAttribute="top" secondItem="hn4-gC-F6w" secondAttribute="bottom" constant="16" id="RFX-vk-FRo"/>
+                <constraint firstItem="ubB-oh-DB7" firstAttribute="top" secondItem="wA7-gO-DKK" secondAttribute="bottom" constant="32" id="RJo-QU-1Vy"/>
+                <constraint firstItem="F1R-xy-gik" firstAttribute="top" secondItem="eTP-KR-onB" secondAttribute="bottom" constant="16" id="SQG-G1-DjY"/>
+                <constraint firstItem="wA7-gO-DKK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="T5a-QO-vEq"/>
+                <constraint firstItem="idO-p9-L9z" firstAttribute="top" secondItem="ubB-oh-DB7" secondAttribute="bottom" constant="16" id="WXS-cD-c7w"/>
+                <constraint firstAttribute="trailing" secondItem="idO-p9-L9z" secondAttribute="trailing" constant="16" id="Wpz-FO-os6"/>
+                <constraint firstItem="tfs-Kn-Q4W" firstAttribute="top" secondItem="NIX-kq-6Vj" secondAttribute="bottom" constant="16" id="YSE-RI-MPw"/>
+                <constraint firstItem="eTP-KR-onB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="aPa-UB-91v"/>
+                <constraint firstItem="NIX-kq-6Vj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="c9j-bJ-1hk"/>
+                <constraint firstItem="NIX-kq-6Vj" firstAttribute="top" secondItem="F1R-xy-gik" secondAttribute="bottom" constant="32" id="cTd-iJ-wQg"/>
+                <constraint firstItem="kFE-oW-8YP" firstAttribute="top" secondItem="oIr-Y1-NFA" secondAttribute="bottom" constant="32" id="fG8-iq-v4n"/>
+                <constraint firstItem="jfo-Km-xg9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="fNG-SM-Azb"/>
+                <constraint firstAttribute="trailing" secondItem="NIX-kq-6Vj" secondAttribute="trailing" constant="16" id="gGz-gP-ZNG"/>
+                <constraint firstAttribute="trailing" secondItem="tfs-Kn-Q4W" secondAttribute="trailing" constant="16" id="gm1-Ww-n3U"/>
+                <constraint firstAttribute="trailing" secondItem="Vz9-un-uUj" secondAttribute="trailing" constant="16" id="i8g-zC-D4P"/>
+                <constraint firstItem="Vlv-Cj-z8o" firstAttribute="top" secondItem="idO-p9-L9z" secondAttribute="bottom" constant="32" id="k46-Ni-Jxc"/>
+                <constraint firstItem="wA7-gO-DKK" firstAttribute="top" secondItem="kFE-oW-8YP" secondAttribute="bottom" constant="16" id="lUG-jL-TPi"/>
+                <constraint firstItem="Vz9-un-uUj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="lt1-Sy-Mbw"/>
+                <constraint firstItem="tfs-Kn-Q4W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="lvo-Ew-Dip"/>
+                <constraint firstItem="idO-p9-L9z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="r6G-sm-auF"/>
+                <constraint firstAttribute="trailing" secondItem="jfo-Km-xg9" secondAttribute="trailing" constant="16" id="rfD-67-gSQ"/>
+                <constraint firstItem="kFE-oW-8YP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="snZ-vr-EOV"/>
+                <constraint firstItem="riw-qH-U5b" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="u1U-Fb-hdA"/>
+                <constraint firstItem="ubB-oh-DB7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="u2p-cP-kqL"/>
+                <constraint firstAttribute="trailing" secondItem="kFE-oW-8YP" secondAttribute="trailing" constant="16" id="u7z-Rc-tX8"/>
+                <constraint firstAttribute="trailing" secondItem="oIr-Y1-NFA" secondAttribute="trailing" constant="16" id="uiP-sx-IYl"/>
+                <constraint firstItem="hn4-gC-F6w" firstAttribute="top" secondItem="riw-qH-U5b" secondAttribute="bottom" constant="32" id="wsw-CK-3uS"/>
+                <constraint firstItem="Vlv-Cj-z8o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="za3-Ni-vd6"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="24" height="24"/>
+        <image name="2" width="24" height="24"/>
+        <image name="3" width="24" height="24"/>
+        <image name="4" width="24" height="24"/>
+    </resources>
+</document>

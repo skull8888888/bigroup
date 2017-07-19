@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1011"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оформление права собственности/заключение основного договора" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCR-v4-fWE">
+                    <rect key="frame" x="16" y="16" width="343" height="72"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJF-Q0-j62">
+                    <rect key="frame" x="16" y="104" width="343" height="125.5"/>
+                    <string key="text">После подписания и регистрации акта ввода в эксплуатацию компания пригласит Вас для заключения основного договора. Для Вашего удоб- ства в офисе работают нотариусы, при желании Вы можете пригласить своего нотариуса. Процедура оформления в собственность состоит из:</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="edm-gS-T0M">
+                    <rect key="frame" x="16" y="261.5" width="343" height="48"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="cj4-45-L2v">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="I1K-4m-4St"/>
+                                <constraint firstAttribute="height" constant="48" id="WPE-MZ-hhG"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Шаг 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOm-nP-CeS">
+                            <rect key="frame" x="64" y="0.0" width="279" height="48"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Проверка оплаты по договору. Передача помещения в собственность производится только после полной оплаты по договору." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvJ-eV-BHY">
+                    <rect key="frame" x="16" y="325.5" width="343" height="54"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UGC-44-Xw6">
+                    <rect key="frame" x="16" y="411.5" width="343" height="48"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="hH1-gK-E9j">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="QBz-DY-1ke"/>
+                                <constraint firstAttribute="width" constant="48" id="RLg-a2-WU9"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Шаг 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42I-4u-nci">
+                            <rect key="frame" x="64" y="0.0" width="279" height="48"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сверка разницы площади по техническому паспорту и по предварительному договору. Производится согласно условий договора." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkw-hI-nXs">
+                    <rect key="frame" x="16" y="475.5" width="343" height="54"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="DRl-qY-c9f">
+                    <rect key="frame" x="16" y="561.5" width="343" height="48"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="v4q-vh-5xQ">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="8ni-9B-hEv"/>
+                                <constraint firstAttribute="height" constant="48" id="IUa-qv-Gm9"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Шаг 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwh-wT-g06">
+                            <rect key="frame" x="64" y="0.0" width="279" height="48"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подписание Договора передачи/Договора купли-продажи." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSB-p5-Q1O">
+                    <rect key="frame" x="16" y="625.5" width="343" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hfq-76-i6B">
+                    <rect key="frame" x="16" y="693.5" width="343" height="48"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="tw9-kI-WMP">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="UX6-fP-GdA"/>
+                                <constraint firstAttribute="width" constant="48" id="tGG-wb-t6n"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Шаг 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGM-kR-mtm">
+                            <rect key="frame" x="64" y="0.0" width="279" height="48"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Электронная регистрация Договора передачи/Договора купли-продажи." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnL-5m-cSc">
+                    <rect key="frame" x="16" y="757.5" width="343" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Важно знать!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVS-ZI-qLl">
+                    <rect key="frame" x="16" y="825.5" width="343" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqY-Fl-HO9">
+                    <rect key="frame" x="16" y="865.5" width="343" height="125.5"/>
+                    <string key="text">* оформление права собственности (выдача технического паспорта и подписание договора купли-продажи) в праздничные дни не производится.*оплата нотариальных услуг взымается согласно ст. 536 НК РК и ст. 30-1 Закона РК «О нотариате»</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hqY-Fl-HO9" firstAttribute="top" secondItem="QVS-ZI-qLl" secondAttribute="bottom" constant="16" id="1pd-3i-Z95"/>
+                <constraint firstItem="LSB-p5-Q1O" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="2bP-QZ-WBE"/>
+                <constraint firstItem="OnL-5m-cSc" firstAttribute="top" secondItem="hfq-76-i6B" secondAttribute="bottom" constant="16" id="4MV-Vz-ph0"/>
+                <constraint firstItem="DRl-qY-c9f" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="5Wt-Vk-Ct5"/>
+                <constraint firstItem="DRl-qY-c9f" firstAttribute="top" secondItem="zkw-hI-nXs" secondAttribute="bottom" constant="32" id="77W-be-aSr"/>
+                <constraint firstItem="CCR-v4-fWE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="8VG-7b-WKC"/>
+                <constraint firstItem="LSB-p5-Q1O" firstAttribute="top" secondItem="DRl-qY-c9f" secondAttribute="bottom" constant="16" id="8jh-W8-LVf"/>
+                <constraint firstItem="edm-gS-T0M" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="BT0-ty-aUy"/>
+                <constraint firstAttribute="trailing" secondItem="LSB-p5-Q1O" secondAttribute="trailing" constant="16" id="Bpu-s1-4T5"/>
+                <constraint firstAttribute="trailing" secondItem="OnL-5m-cSc" secondAttribute="trailing" constant="16" id="Cuk-5w-6vr"/>
+                <constraint firstAttribute="trailing" secondItem="ZvJ-eV-BHY" secondAttribute="trailing" constant="16" id="EUx-ia-2fb"/>
+                <constraint firstItem="hfq-76-i6B" firstAttribute="top" secondItem="LSB-p5-Q1O" secondAttribute="bottom" constant="32" id="Imp-8R-j3f"/>
+                <constraint firstItem="edm-gS-T0M" firstAttribute="top" secondItem="oJF-Q0-j62" secondAttribute="bottom" constant="32" id="JgV-62-nIn"/>
+                <constraint firstItem="hfq-76-i6B" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="LE4-4C-h7J"/>
+                <constraint firstAttribute="trailing" secondItem="oJF-Q0-j62" secondAttribute="trailing" constant="16" id="Opa-Ps-kGm"/>
+                <constraint firstAttribute="trailing" secondItem="CCR-v4-fWE" secondAttribute="trailing" constant="16" id="RYC-qL-ZjK"/>
+                <constraint firstItem="zkw-hI-nXs" firstAttribute="top" secondItem="UGC-44-Xw6" secondAttribute="bottom" constant="16" id="YAa-lK-9bS"/>
+                <constraint firstAttribute="trailing" secondItem="zkw-hI-nXs" secondAttribute="trailing" constant="16" id="YFb-LZ-hFe"/>
+                <constraint firstAttribute="trailing" secondItem="UGC-44-Xw6" secondAttribute="trailing" constant="16" id="Z0F-LR-Ktq"/>
+                <constraint firstItem="UGC-44-Xw6" firstAttribute="top" secondItem="ZvJ-eV-BHY" secondAttribute="bottom" constant="32" id="b5n-on-ck7"/>
+                <constraint firstItem="ZvJ-eV-BHY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="bdp-zR-5Py"/>
+                <constraint firstItem="QVS-ZI-qLl" firstAttribute="top" secondItem="OnL-5m-cSc" secondAttribute="bottom" constant="32" id="bsB-pQ-ytl"/>
+                <constraint firstAttribute="trailing" secondItem="hfq-76-i6B" secondAttribute="trailing" constant="16" id="ccQ-tz-F2i"/>
+                <constraint firstItem="CCR-v4-fWE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="dQg-Mb-pDU"/>
+                <constraint firstItem="ZvJ-eV-BHY" firstAttribute="top" secondItem="edm-gS-T0M" secondAttribute="bottom" constant="16" id="dbF-XE-bAN"/>
+                <constraint firstItem="oJF-Q0-j62" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="hEa-YN-NoZ"/>
+                <constraint firstItem="oJF-Q0-j62" firstAttribute="top" secondItem="CCR-v4-fWE" secondAttribute="bottom" constant="16" id="iiI-Cq-SrV"/>
+                <constraint firstItem="hqY-Fl-HO9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="jgD-Bz-BDt"/>
+                <constraint firstAttribute="trailing" secondItem="DRl-qY-c9f" secondAttribute="trailing" constant="16" id="l0T-G8-gii"/>
+                <constraint firstAttribute="trailing" secondItem="edm-gS-T0M" secondAttribute="trailing" constant="16" id="lr9-8L-Bca"/>
+                <constraint firstItem="UGC-44-Xw6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="mMa-Og-1kg"/>
+                <constraint firstAttribute="trailing" secondItem="QVS-ZI-qLl" secondAttribute="trailing" constant="16" id="mlT-xA-NIU"/>
+                <constraint firstItem="zkw-hI-nXs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="oqs-qo-5Db"/>
+                <constraint firstItem="OnL-5m-cSc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="rL4-Pc-B2g"/>
+                <constraint firstItem="QVS-ZI-qLl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="wVN-vp-7wW"/>
+                <constraint firstAttribute="trailing" secondItem="hqY-Fl-HO9" secondAttribute="trailing" constant="16" id="zDj-iT-vF0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="225.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="24" height="24"/>
+        <image name="2" width="24" height="24"/>
+        <image name="3" width="24" height="24"/>
+        <image name="4" width="24" height="24"/>
+    </resources>
+</document>

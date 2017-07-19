@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MortgageViewController" customModule="BIGroup" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happyFamily" translatesAutoresizingMaskIntoConstraints="NO" id="t7I-1l-EVM">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="3tF-nJ-u9S"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efn-qF-Dwg">
+                    <rect key="frame" x="16" y="168" width="343" height="64"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mortgage" translatesAutoresizingMaskIntoConstraints="NO" id="EG8-gy-6x2">
+                            <rect key="frame" x="16" y="16" width="32" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="c9P-VN-noT"/>
+                                <constraint firstAttribute="width" constant="32" id="zHd-kO-QZp"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ипотека" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7S-ym-5V3">
+                            <rect key="frame" x="64" y="16" width="263" height="32"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="o7S-ym-5V3" firstAttribute="top" secondItem="efn-qF-Dwg" secondAttribute="top" constant="16" id="Dd0-0Q-rUc"/>
+                        <constraint firstItem="EG8-gy-6x2" firstAttribute="top" secondItem="efn-qF-Dwg" secondAttribute="top" constant="16" id="Qfe-Js-UMo"/>
+                        <constraint firstItem="EG8-gy-6x2" firstAttribute="leading" secondItem="efn-qF-Dwg" secondAttribute="leading" constant="16" id="RZW-SF-QMz"/>
+                        <constraint firstAttribute="height" constant="64" id="S8J-mI-81d"/>
+                        <constraint firstAttribute="bottom" secondItem="EG8-gy-6x2" secondAttribute="bottom" constant="16" id="UPA-ig-sFS"/>
+                        <constraint firstItem="o7S-ym-5V3" firstAttribute="leading" secondItem="EG8-gy-6x2" secondAttribute="trailing" constant="16" id="XKA-En-ifk"/>
+                        <constraint firstAttribute="trailing" secondItem="o7S-ym-5V3" secondAttribute="trailing" constant="16" id="l9y-pG-AaY"/>
+                        <constraint firstAttribute="bottom" secondItem="o7S-ym-5V3" secondAttribute="bottom" constant="16" id="vjV-NU-zho"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOm-yx-XcK">
+                    <rect key="frame" x="16" y="248" width="343" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="taB-Bi-7Hc"/>
+                    </constraints>
+                    <string key="text">Для удобства наших клиентов, компания ведет активную политику в области продажи квартир через банки второго уровня
+
+Под условия банков попадают все ЖК
+компании BI Group
+ Ознакомтесь с условиями банков:</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mxu-gr-4ep">
+                    <rect key="frame" x="16" y="426" width="343" height="64"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sber" translatesAutoresizingMaskIntoConstraints="NO" id="q4l-PK-8Qj">
+                            <rect key="frame" x="0.0" y="16" width="240" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pA-cg-VO4">
+                            <rect key="frame" x="311" y="20" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="53w-7H-Poa"/>
+                                <constraint firstAttribute="width" constant="24" id="EQE-9e-qsZ"/>
+                            </constraints>
+                            <state key="normal" image="forward"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="6pA-cg-VO4" secondAttribute="trailing" constant="8" id="ROd-Gz-XeJ"/>
+                        <constraint firstAttribute="bottom" secondItem="6pA-cg-VO4" secondAttribute="bottom" constant="20" id="V8R-Ki-Ac6"/>
+                        <constraint firstItem="6pA-cg-VO4" firstAttribute="top" secondItem="mxu-gr-4ep" secondAttribute="top" constant="20" id="oJq-oN-lb9"/>
+                        <constraint firstAttribute="height" constant="64" id="uLS-Zl-dsk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y0w-2z-vET">
+                    <rect key="frame" x="16" y="506" width="343" height="64"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="p4n-lL-VTR">
+                            <rect key="frame" x="0.0" y="16" width="240" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bvb-UJ-Gi7">
+                            <rect key="frame" x="311" y="20" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="Kf7-EJ-Skf"/>
+                                <constraint firstAttribute="width" constant="24" id="fjG-eP-bQb"/>
+                            </constraints>
+                            <state key="normal" image="forward"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="104-1W-CrY"/>
+                        <constraint firstItem="Bvb-UJ-Gi7" firstAttribute="top" secondItem="Y0w-2z-vET" secondAttribute="top" constant="20" id="FoA-NC-QmZ"/>
+                        <constraint firstAttribute="trailing" secondItem="Bvb-UJ-Gi7" secondAttribute="trailing" constant="8" id="Fvs-y1-BV0"/>
+                        <constraint firstAttribute="bottom" secondItem="Bvb-UJ-Gi7" secondAttribute="bottom" constant="20" id="fSs-KM-jHA"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0f-bn-tSc">
+                    <rect key="frame" x="16" y="586" width="343" height="44"/>
+                    <color key="backgroundColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="F1R-Ht-gQI"/>
+                    </constraints>
+                    <state key="normal" title="Подать заявку">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="toCallback:" destination="-1" eventType="touchUpInside" id="zne-QA-9r9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kOm-yx-XcK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="2Aj-XG-e5D"/>
+                <constraint firstItem="Y0w-2z-vET" firstAttribute="top" secondItem="mxu-gr-4ep" secondAttribute="bottom" constant="16" id="3KH-c4-Hb0"/>
+                <constraint firstItem="F0f-bn-tSc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="45l-JZ-7l0"/>
+                <constraint firstItem="F0f-bn-tSc" firstAttribute="top" secondItem="Y0w-2z-vET" secondAttribute="bottom" constant="16" id="7Mz-OS-RvE"/>
+                <constraint firstItem="mxu-gr-4ep" firstAttribute="top" secondItem="kOm-yx-XcK" secondAttribute="bottom" constant="16" id="8mX-4v-yia"/>
+                <constraint firstItem="t7I-1l-EVM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9YR-ci-6ho"/>
+                <constraint firstAttribute="trailing" secondItem="Y0w-2z-vET" secondAttribute="trailing" constant="16" id="E6t-tC-V3i"/>
+                <constraint firstItem="mxu-gr-4ep" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="INr-T3-gLH"/>
+                <constraint firstItem="efn-qF-Dwg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="JIe-HV-U0C"/>
+                <constraint firstItem="t7I-1l-EVM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Jav-cg-5La"/>
+                <constraint firstAttribute="trailing" secondItem="F0f-bn-tSc" secondAttribute="trailing" constant="16" id="PNF-Lk-Fhh"/>
+                <constraint firstAttribute="trailing" secondItem="mxu-gr-4ep" secondAttribute="trailing" constant="16" id="SXy-Qb-fWI"/>
+                <constraint firstItem="efn-qF-Dwg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="168" id="bb3-t3-l8b"/>
+                <constraint firstItem="kOm-yx-XcK" firstAttribute="top" secondItem="efn-qF-Dwg" secondAttribute="bottom" constant="16" id="chW-5G-N7q"/>
+                <constraint firstItem="Y0w-2z-vET" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="cwt-jW-E7q"/>
+                <constraint firstAttribute="trailing" secondItem="t7I-1l-EVM" secondAttribute="trailing" id="hcs-Z7-70a"/>
+                <constraint firstAttribute="trailing" secondItem="kOm-yx-XcK" secondAttribute="trailing" constant="16" id="r6B-rz-Ffk"/>
+                <constraint firstAttribute="trailing" secondItem="efn-qF-Dwg" secondAttribute="trailing" constant="16" id="zFf-9z-qmC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Bitmap" width="110" height="35"/>
+        <image name="forward" width="24" height="24"/>
+        <image name="happyFamily" width="320" height="200"/>
+        <image name="mortgage" width="24" height="24"/>
+        <image name="sber" width="189" height="35"/>
+    </resources>
+</document>

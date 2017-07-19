@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1579"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Если вы решили приобрести или продать недвижимость, специалисты отдела перепродаж помогут подобрать Вам наилучший вариант." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qI1-to-wJk">
+                    <rect key="frame" x="16" y="16" width="343" height="119.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXD-7X-KY4">
+                    <rect key="frame" x="16" y="151.5" width="343" height="48"/>
+                    <string key="text">Услуги предоставляемые 
+отделом перепродаж:</string>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPY-Ve-Uc7">
+                    <rect key="frame" x="16" y="215.5" width="343" height="477.5"/>
+                    <mutableString key="text">• Покупка или продажа любых категорий недвижимости (квартиры, коттеджи, офисные помещения) как на первичном, так и на вторичном рынке жилья.
+
+• Целостное обслуживание и бесплатное консультирование при купле-продаже недвижимости.
+
+• Полное сопровождение клиента в сделке по покупке или продаже недвижимости (подбор объекта, организация просмотров, ведение
+переговоров, подготовка и сбор документов по сделке).
+
+• Активное продвижение продаваемой недвижимости путем размещения рекламы в сети интернет – специализированные сайты («Крыша», «КН», «OLX») и социальные сети («Instagram», «Facebook», «VK»).
+
+• И главное – все это качественно, надежно и быстро!</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Подача заявки на продажу:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxV-AJ-yYJ">
+                    <rect key="frame" x="16" y="725" width="343" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLZ-uH-7mc">
+                    <rect key="frame" x="16" y="765" width="343" height="322.5"/>
+                    <mutableString key="text">Необходимо предоставить следующую информацию:
+
+1. Наименование ЖК
+
+2. Квартиры
+
+3. Площадь квартиры
+
+4. Этаж и этажность дома
+
+5. Стоимость в которую клиент оценивает свою квартиру
+
+6. Данные контактного лица (имя, телефон, эл почту)
+
+7. дополнительную информацию</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJB-GY-Wet">
+                    <rect key="frame" x="16" y="1119.5" width="343" height="48"/>
+                    <string key="text">Пакет документов 
+необходимый при сделке:</string>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.2901960784" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oed-4N-P3i">
+                    <rect key="frame" x="15" y="1182.5" width="345" height="376"/>
+                    <mutableString key="text">Оформление договора цессии (переуступка прав требования) в нотариусе:
+
+Оригинал Предварительного договора , всех дополнительных соглашений (при их наличии), чеки, квитанции (если сохранились), выписка из реестра (предоставляет нотариус), справка от застройщика.
+
+Присутствие супруга/супруги + свидетельство о заключении брака, или в случаях, когда супруг/супруга не могут присутствовать на сделке -
+нотариально заверенное заявление о согласии на переуступку прав требования на квартиру.
+
+Стоимость заявления супруга/ги – 
+1 203 тг., пенсионерам- 68 тг.
+
+Стоимость договора цессии – 
+16 337 тг.</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oed-4N-P3i" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="07T-hI-LBw"/>
+                <constraint firstItem="kLZ-uH-7mc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="5ai-Dc-cCq"/>
+                <constraint firstItem="qI1-to-wJk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="76I-2Z-CJ7"/>
+                <constraint firstAttribute="trailing" secondItem="oed-4N-P3i" secondAttribute="trailing" constant="15" id="8p6-Lv-ecO"/>
+                <constraint firstItem="yJB-GY-Wet" firstAttribute="top" secondItem="kLZ-uH-7mc" secondAttribute="bottom" constant="32" id="D9J-rV-0UZ"/>
+                <constraint firstItem="kLZ-uH-7mc" firstAttribute="top" secondItem="XxV-AJ-yYJ" secondAttribute="bottom" constant="16" id="Dav-NN-E9r"/>
+                <constraint firstAttribute="trailing" secondItem="CPY-Ve-Uc7" secondAttribute="trailing" constant="16" id="F9A-vy-RFa"/>
+                <constraint firstItem="DXD-7X-KY4" firstAttribute="top" secondItem="qI1-to-wJk" secondAttribute="bottom" constant="16" id="GQb-h9-ZRk"/>
+                <constraint firstItem="qI1-to-wJk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Kxh-o3-2Nq"/>
+                <constraint firstItem="DXD-7X-KY4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="LeZ-2A-gLw"/>
+                <constraint firstItem="oed-4N-P3i" firstAttribute="top" secondItem="yJB-GY-Wet" secondAttribute="bottom" constant="15" id="Q7Q-cK-3C6"/>
+                <constraint firstItem="CPY-Ve-Uc7" firstAttribute="top" secondItem="DXD-7X-KY4" secondAttribute="bottom" constant="16" id="S4c-fl-1qE"/>
+                <constraint firstAttribute="trailing" secondItem="qI1-to-wJk" secondAttribute="trailing" constant="16" id="TEo-pL-4oc"/>
+                <constraint firstItem="XxV-AJ-yYJ" firstAttribute="top" secondItem="CPY-Ve-Uc7" secondAttribute="bottom" constant="32" id="TdP-u0-HzN"/>
+                <constraint firstAttribute="trailing" secondItem="kLZ-uH-7mc" secondAttribute="trailing" constant="16" id="UhO-Dh-YBC"/>
+                <constraint firstAttribute="trailing" secondItem="yJB-GY-Wet" secondAttribute="trailing" constant="16" id="YTA-Ft-nCp"/>
+                <constraint firstAttribute="trailing" secondItem="DXD-7X-KY4" secondAttribute="trailing" constant="16" id="hbo-Zt-pho"/>
+                <constraint firstItem="yJB-GY-Wet" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="hxN-Zq-ofJ"/>
+                <constraint firstItem="XxV-AJ-yYJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="kGK-Gv-zJF"/>
+                <constraint firstAttribute="trailing" secondItem="XxV-AJ-yYJ" secondAttribute="trailing" constant="16" id="uK5-qY-n9A"/>
+                <constraint firstItem="CPY-Ve-Uc7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="vKy-tr-kmM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="509.5"/>
+        </view>
+    </objects>
+</document>

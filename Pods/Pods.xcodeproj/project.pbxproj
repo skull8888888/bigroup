@@ -1,0 +1,1143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029D3BC73FA2037A9AD915E7AAA69E37 /* Pods-BIGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402FC99065AC3EA8894E4D772AC69C9 /* Pods-BIGroup-dummy.m */; };
+		05ED5B55D8AAD30623AEB9B36430D576 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72C53AF69DAF78E451BC8F046B23C1 /* KYEmbedMainControllerSegue.swift */; };
+		1008072FF6553003E9539E8C90D8B39C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		1E781C386ECFD30AD14BFBC8DA2E1AD3 /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 17483B675C92F3EDFE9CFA0F8D1A70A5 /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D022E7BB28D6B7D723B286F7E0BCA60 /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F792B0152EDA5C53AB8C93565F623600 /* UPCarouselFlowLayout-dummy.m */; };
+		3AFA54C6DC0961AD0F4CC8A4F1AF915E /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34296D0364BB0371AF9ED7B2098FFFAA /* M13CheckboxDisclosurePathGenerator.swift */; };
+		3D976DD35C822B9B6971ED06121B4A44 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE2A4711D3FB306CE8B685476D65331 /* M13CheckboxFlatController.swift */; };
+		3E2FFD3C073383B859F71C2B1411FA89 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA811C2C5F9E1777B61C6D07FB84B15 /* M13Checkbox+IB.swift */; };
+		40897730B01BE8C60FB61A02DD7A1F6A /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78B616DAFB3684FFB1054262DF2369 /* M13CheckboxStrokeController.swift */; };
+		445378EF15B25DB3370FF77B2F6F42D7 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913CC7CD33F64171160DA386382B5EF7 /* M13Checkbox.swift */; };
+		5F1BF8AEF8BFA2B985BEC6566E470C08 /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A64B3041401A313393229F5F6DCC3B25 /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC40F18DBFFCACF3FA032B58571B781 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B012B3BD55F7814281C5D81835E24 /* KYDrawerController-dummy.m */; };
+		62B449845871F8DA880D40BE4935EC56 /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1809BCB5B2393DAC2E988FC70AB7D5F0 /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7F6283CE6F6418FD195E43D2216FBF /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED31495FCF56C29B4C83EC1696F7727 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70FB226215B58D6D8E03C637BAEEDC93 /* SwiftRangeSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A47A232C333EDBA14B4CDE3135A3A86C /* SwiftRangeSlider-dummy.m */; };
+		74EBEC8F9277C0056FF08F806E75EB4F /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E44E2F328BDBBD3901568DB97E012CD /* KYDrawerController.swift */; };
+		76D3E2602CFAE6474D2DFA89F5328A24 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A92E263CDE327137CEA4069A56728E /* M13CheckboxPathGenerator.swift */; };
+		80CD994ABA1A2B01AD1838A4D4BB794C /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA0C19FA82526B279F0301957324D /* M13CheckboxFillController.swift */; };
+		80E34254247C5B1984E2FB9EC58774E4 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D9E6601F76F2FD335FBDAA16358A54 /* M13CheckboxDotController.swift */; };
+		82B419182C936ABD108EF2BEE46A2844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		83083D5A05B82CC28305EDE97D829F6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		850EB8F54CA9B2802E7D57E6719E5410 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68EB8FB108102F1E6B429BCC04BEEF6 /* UPCarouselFlowLayout.swift */; };
+		85CB53B9E438E280DA1690CCFD778689 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48BE455FE337380676226FDD76BE33F /* M13CheckboxRadioPathGenerator.swift */; };
+		86C713C329C0814CB0ECCC0FFD4EF091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		8ED3FB14D1852DD05FDF6E23E94A4657 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149C830CA848022ECFDC5D512C82A4EE /* M13CheckboxAddRemovePathGenerator.swift */; };
+		950315382A5C5EA717EF07FFF52FBDFC /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48C55546D7C0F8D1166D8E55E6AC8C /* RangeSlider.swift */; };
+		A19AF75AFB6877B5A50B9ABD41A9680E /* RangeSliderTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A5AF3A24DF8A0928185A327F45157F /* RangeSliderTrack.swift */; };
+		A38175771ADC96D34E245B5BC689C69C /* RangeSliderKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FDB624C253E4CEC2CF2EBA1BB962C /* RangeSliderKnob.swift */; };
+		AAE54CDA46FD620F4BC54BC583EA255C /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA01D93A57D50C94DC189AED037EC7D /* M13Checkbox-dummy.m */; };
+		AC3809C0D72C84E9F1E59D6514CCE655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		BCB82BDDA7C30F0B0AFE479CC479B522 /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120219F2CBBC431D6D9027E37871C89 /* M13CheckboxExpandController.swift */; };
+		C277B9EAC728D880FF1F15EE98C8B200 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9FC0172E7B6C51E4FBF9D47C23B79 /* M13CheckboxController.swift */; };
+		C6D0B50C214C9E7CC815F2773D702779 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70DFA6585AC91F9E8481BED63C2B42 /* M13CheckboxAnimationGenerator.swift */; };
+		C82B71A65C79941567E02401E96010AD /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = AE33D56CCCD01C658D29F9040725E273 /* Info.plist */; };
+		C85C1170ADDE3E04A0E9C9B6385BE5BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
+		C8D41C0D4E89BE8510BA40F04EFF4FA8 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82109F7B7DC201ADAE4D8D2E364270D8 /* M13CheckboxCheckPathGenerator.swift */; };
+		CE9086D1C492C0938FC285B5EDDB4949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		D6039515F84B2167BBAC8D1CE12A5F4E /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB1CF1F5AC986724FD49CDF159D7C71 /* M13CheckboxGestureRecognizer.swift */; };
+		E371E7355D38668AA4B92A0ED0881D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		F232CE6C295B30B137B7E547128A1133 /* Pods-BIGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1DD59DCBE2E159360B88D352B73293 /* Pods-BIGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A5B0214108C732898DD2C00BA6FE56 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C996B3D54AD81A86A5ABA397F2F27D7 /* M13CheckboxBounceController.swift */; };
+		F924924950C710098BA168884604FAE8 /* SwiftRangeSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7C55266B94A46010F50E3D680214F3 /* SwiftRangeSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2B271AAF040F6C1B860C6C3DF0558F /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3C1FFEAC2A83236FDADD894B93797 /* M13CheckboxSpiralController.swift */; };
+		FE020C0F86B9EBDE87399EC0136682FE /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480F0FA984EE49217BD38FF071087971 /* KYEmbedDrawerControllerSegue.swift */; };
+		FFF489DE367C237C0E8F7E4442DA06D7 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD9329B816096E9158CB1A85451CA8 /* M13CheckboxFadeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17EF43DDE43759B4E0AA055FA73CD288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF8670FDECF80EFCAA3D04318C4B4D1;
+			remoteInfo = KYDrawerController;
+		};
+		202E8B04218634C01325C267036DC8BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F118D4BD6A150EBDA55D3ABDC8841B;
+			remoteInfo = UPCarouselFlowLayout;
+		};
+		25B16FBA9FC6C24A9508B5E652492DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A9DD9ABBF08BC57372A26C35327BF1;
+			remoteInfo = M13Checkbox;
+		};
+		85FD550C8733B6E21DB26DA5A26202AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA317EC300B6A58E900F9FB8B38C08CD;
+			remoteInfo = SwiftRangeSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D5E3927988CA7C6A8BCC8117921DA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021EE30AC8A1AA6D13EB1CB301BF241B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD9329B816096E9158CB1A85451CA8 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		071C3F9E86169A6CDCB6BA0D6AF85CED /* SwiftRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftRangeSlider.framework; path = SwiftRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C996B3D54AD81A86A5ABA397F2F27D7 /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		0CA811C2C5F9E1777B61C6D07FB84B15 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		0E44E2F328BDBBD3901568DB97E012CD /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		0EB1CF1F5AC986724FD49CDF159D7C71 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		101E02EE896C255139551F7B482D02FB /* SwiftRangeSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftRangeSlider-prefix.pch"; sourceTree = "<group>"; };
+		1120219F2CBBC431D6D9027E37871C89 /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		13ABCBC4215FEECCF0B2C04E418D5E60 /* Pods-BIGroup-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BIGroup-acknowledgements.plist"; sourceTree = "<group>"; };
+		149C830CA848022ECFDC5D512C82A4EE /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		17483B675C92F3EDFE9CFA0F8D1A70A5 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
+		1809BCB5B2393DAC2E988FC70AB7D5F0 /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		1E1802E9666E249E416A00F24AB9CE17 /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
+		2154237201FA873AA573A3F7E5A2F69F /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		24A92E263CDE327137CEA4069A56728E /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		2ACA201C358FD0061463BC190A3B4AFA /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		2F77F9ECF10E179B409282A689DA7DC0 /* UPCarouselFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.xcconfig; sourceTree = "<group>"; };
+		30F7CE483A2720ED13DEB9C8DACBBB23 /* Pods-BIGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BIGroup.debug.xcconfig"; sourceTree = "<group>"; };
+		3402FC99065AC3EA8894E4D772AC69C9 /* Pods-BIGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BIGroup-dummy.m"; sourceTree = "<group>"; };
+		34296D0364BB0371AF9ED7B2098FFFAA /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		34A5FDA1D8608B3095C22D028ECD32E8 /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3951281C7A501FE370E0E2F47BFFCE45 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		3BE2A4711D3FB306CE8B685476D65331 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		3F1DD59DCBE2E159360B88D352B73293 /* Pods-BIGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BIGroup-umbrella.h"; sourceTree = "<group>"; };
+		41E22FE1B0E07FBE24E4CC7ED4B2560F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480F0FA984EE49217BD38FF071087971 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		56A5AF3A24DF8A0928185A327F45157F /* RangeSliderTrack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSliderTrack.swift; path = SwiftRangeSlider/RangeSliderTrack.swift; sourceTree = "<group>"; };
+		5D5B012B3BD55F7814281C5D81835E24 /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
+		5D78B616DAFB3684FFB1054262DF2369 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		5E01ED952FF6D001B2BAA44B0EBB1BE8 /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
+		5ED31495FCF56C29B4C83EC1696F7727 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		5F49844F99CD83E1EB906E34816ACC77 /* SwiftRangeSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftRangeSlider.modulemap; sourceTree = "<group>"; };
+		62F3C1FFEAC2A83236FDADD894B93797 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		64EF4021E1E29E1F3D661C9486A6386C /* Pods-BIGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BIGroup.release.xcconfig"; sourceTree = "<group>"; };
+		653F354DC4DDF385762B94CD0664C6DE /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6DC9FC0172E7B6C51E4FBF9D47C23B79 /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		77467E7B3DD9C6405343D59448F13641 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D9E6601F76F2FD335FBDAA16358A54 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82109F7B7DC201ADAE4D8D2E364270D8 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		83FEDF71DE0CD123D4A081F95FD3CDB2 /* SwiftRangeSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftRangeSlider.xcconfig; sourceTree = "<group>"; };
+		8D7C55266B94A46010F50E3D680214F3 /* SwiftRangeSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftRangeSlider-umbrella.h"; sourceTree = "<group>"; };
+		913CC7CD33F64171160DA386382B5EF7 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA01D93A57D50C94DC189AED037EC7D /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		A47A232C333EDBA14B4CDE3135A3A86C /* SwiftRangeSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftRangeSlider-dummy.m"; sourceTree = "<group>"; };
+		A64B3041401A313393229F5F6DCC3B25 /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		A98C9AF9B6170C7AAFD98A4F38D186DA /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		AE33D56CCCD01C658D29F9040725E273 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = UPCarouselFlowLayout/Info.plist; sourceTree = "<group>"; };
+		B1E9EF3BD0A024815BAD693ECE6886A1 /* Pods-BIGroup-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BIGroup-resources.sh"; sourceTree = "<group>"; };
+		CF5FDB624C253E4CEC2CF2EBA1BB962C /* RangeSliderKnob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSliderKnob.swift; path = SwiftRangeSlider/RangeSliderKnob.swift; sourceTree = "<group>"; };
+		D2A8B255182D805FCCD8C504FBEC3468 /* Pods_BIGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BIGroup.framework; path = "Pods-BIGroup.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D562EB57B4CEE48654184DB651F3BD32 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		DDD50636A73A7BF56BBFDBF19BC0A080 /* Pods-BIGroup-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BIGroup-frameworks.sh"; sourceTree = "<group>"; };
+		E48BE455FE337380676226FDD76BE33F /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		E708A733AF020F710D373914F04A1B5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95F6EAE9F07B08A957BED05E0FC9960 /* Pods-BIGroup-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BIGroup-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA70DFA6585AC91F9E8481BED63C2B42 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		EE89A8ADC5C81F54F12FD0BE1E27FC48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF48C55546D7C0F8D1166D8E55E6AC8C /* RangeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSlider.swift; path = SwiftRangeSlider/RangeSlider.swift; sourceTree = "<group>"; };
+		F68EB8FB108102F1E6B429BCC04BEEF6 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		F792B0152EDA5C53AB8C93565F623600 /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		F95CA0C19FA82526B279F0301957324D /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		FAE3D3318F5EE467B18EDFDA04FC1182 /* Pods-BIGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BIGroup.modulemap"; sourceTree = "<group>"; };
+		FAFED35D063974D5433314A32F314BF8 /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYDrawerController.framework; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC72C53AF69DAF78E451BC8F046B23C1 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368521B0FA86C82337243E1347852A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E371E7355D38668AA4B92A0ED0881D4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0A05AA01DF104F42D26FE43A7F557F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B419182C936ABD108EF2BEE46A2844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53797C5F84C3B718634123945FF8378E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85C1170ADDE3E04A0E9C9B6385BE5BF /* CoreGraphics.framework in Frameworks */,
+				AC3809C0D72C84E9F1E59D6514CCE655 /* Foundation.framework in Frameworks */,
+				86C713C329C0814CB0ECCC0FFD4EF091 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4F4A5624E6F605F63D0A9E60F7DEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9086D1C492C0938FC285B5EDDB4949 /* Foundation.framework in Frameworks */,
+				83083D5A05B82CC28305EDE97D829F6A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB1EF2F8A9886B7F0713F557C0356DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1008072FF6553003E9539E8C90D8B39C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DF0CE562B2CDE4D6E34626992FB0D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4B41C3D26A97AEFF19E2EE583E3EFD6 /* KYDrawerController */,
+				E67EAEA34A07F113C91D3BC136E3E2CD /* M13Checkbox */,
+				C35EDD4E94A6386097B29751CE0BC2B9 /* SwiftRangeSlider */,
+				981433330839E5A5D5B8A24B8AC6F0CF /* UPCarouselFlowLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F4BD72D88C3A6176E0FBA7047BCB94F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41E22FE1B0E07FBE24E4CC7ED4B2560F /* Info.plist */,
+				1E1802E9666E249E416A00F24AB9CE17 /* UPCarouselFlowLayout.modulemap */,
+				2F77F9ECF10E179B409282A689DA7DC0 /* UPCarouselFlowLayout.xcconfig */,
+				F792B0152EDA5C53AB8C93565F623600 /* UPCarouselFlowLayout-dummy.m */,
+				A98C9AF9B6170C7AAFD98A4F38D186DA /* UPCarouselFlowLayout-prefix.pch */,
+				A64B3041401A313393229F5F6DCC3B25 /* UPCarouselFlowLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UPCarouselFlowLayout";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */,
+				792165F2CA033667D6F57205316D40A1 /* Foundation.framework */,
+				695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62975B56707B84188A53A7608C16C316 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E708A733AF020F710D373914F04A1B5F /* Info.plist */,
+				5F49844F99CD83E1EB906E34816ACC77 /* SwiftRangeSlider.modulemap */,
+				83FEDF71DE0CD123D4A081F95FD3CDB2 /* SwiftRangeSlider.xcconfig */,
+				A47A232C333EDBA14B4CDE3135A3A86C /* SwiftRangeSlider-dummy.m */,
+				101E02EE896C255139551F7B482D02FB /* SwiftRangeSlider-prefix.pch */,
+				8D7C55266B94A46010F50E3D680214F3 /* SwiftRangeSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftRangeSlider";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				07DF0CE562B2CDE4D6E34626992FB0D6 /* Pods */,
+				EF5A20D797167090B816D7610EB6D4CE /* Products */,
+				98173EEBD8F91AB32B4CCCF94DE72677 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		981433330839E5A5D5B8A24B8AC6F0CF /* UPCarouselFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AE33D56CCCD01C658D29F9040725E273 /* Info.plist */,
+				17483B675C92F3EDFE9CFA0F8D1A70A5 /* UPCarouselFlowLayout.h */,
+				F68EB8FB108102F1E6B429BCC04BEEF6 /* UPCarouselFlowLayout.swift */,
+				0F4BD72D88C3A6176E0FBA7047BCB94F /* Support Files */,
+			);
+			name = UPCarouselFlowLayout;
+			path = UPCarouselFlowLayout;
+			sourceTree = "<group>";
+		};
+		98173EEBD8F91AB32B4CCCF94DE72677 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAFF90AD36EA01ADAD3F35C11D5EA0A /* Pods-BIGroup */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9EA5D195F1F96ED0B966D8FAA8E9D01B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE89A8ADC5C81F54F12FD0BE1E27FC48 /* Info.plist */,
+				5E01ED952FF6D001B2BAA44B0EBB1BE8 /* KYDrawerController.modulemap */,
+				2154237201FA873AA573A3F7E5A2F69F /* KYDrawerController.xcconfig */,
+				5D5B012B3BD55F7814281C5D81835E24 /* KYDrawerController-dummy.m */,
+				653F354DC4DDF385762B94CD0664C6DE /* KYDrawerController-prefix.pch */,
+				1809BCB5B2393DAC2E988FC70AB7D5F0 /* KYDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYDrawerController";
+			sourceTree = "<group>";
+		};
+		C35EDD4E94A6386097B29751CE0BC2B9 /* SwiftRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				EF48C55546D7C0F8D1166D8E55E6AC8C /* RangeSlider.swift */,
+				CF5FDB624C253E4CEC2CF2EBA1BB962C /* RangeSliderKnob.swift */,
+				56A5AF3A24DF8A0928185A327F45157F /* RangeSliderTrack.swift */,
+				62975B56707B84188A53A7608C16C316 /* Support Files */,
+			);
+			name = SwiftRangeSlider;
+			path = SwiftRangeSlider;
+			sourceTree = "<group>";
+		};
+		C7520CC123FD9A7458586C1618FBA37F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D5E3927988CA7C6A8BCC8117921DA0 /* Info.plist */,
+				D562EB57B4CEE48654184DB651F3BD32 /* M13Checkbox.modulemap */,
+				3951281C7A501FE370E0E2F47BFFCE45 /* M13Checkbox.xcconfig */,
+				9AA01D93A57D50C94DC189AED037EC7D /* M13Checkbox-dummy.m */,
+				2ACA201C358FD0061463BC190A3B4AFA /* M13Checkbox-prefix.pch */,
+				5ED31495FCF56C29B4C83EC1696F7727 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		E4B41C3D26A97AEFF19E2EE583E3EFD6 /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				0E44E2F328BDBBD3901568DB97E012CD /* KYDrawerController.swift */,
+				480F0FA984EE49217BD38FF071087971 /* KYEmbedDrawerControllerSegue.swift */,
+				FC72C53AF69DAF78E451BC8F046B23C1 /* KYEmbedMainControllerSegue.swift */,
+				9EA5D195F1F96ED0B966D8FAA8E9D01B /* Support Files */,
+			);
+			name = KYDrawerController;
+			path = KYDrawerController;
+			sourceTree = "<group>";
+		};
+		E67EAEA34A07F113C91D3BC136E3E2CD /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				913CC7CD33F64171160DA386382B5EF7 /* M13Checkbox.swift */,
+				0CA811C2C5F9E1777B61C6D07FB84B15 /* M13Checkbox+IB.swift */,
+				149C830CA848022ECFDC5D512C82A4EE /* M13CheckboxAddRemovePathGenerator.swift */,
+				EA70DFA6585AC91F9E8481BED63C2B42 /* M13CheckboxAnimationGenerator.swift */,
+				0C996B3D54AD81A86A5ABA397F2F27D7 /* M13CheckboxBounceController.swift */,
+				82109F7B7DC201ADAE4D8D2E364270D8 /* M13CheckboxCheckPathGenerator.swift */,
+				6DC9FC0172E7B6C51E4FBF9D47C23B79 /* M13CheckboxController.swift */,
+				34296D0364BB0371AF9ED7B2098FFFAA /* M13CheckboxDisclosurePathGenerator.swift */,
+				78D9E6601F76F2FD335FBDAA16358A54 /* M13CheckboxDotController.swift */,
+				1120219F2CBBC431D6D9027E37871C89 /* M13CheckboxExpandController.swift */,
+				05BD9329B816096E9158CB1A85451CA8 /* M13CheckboxFadeController.swift */,
+				F95CA0C19FA82526B279F0301957324D /* M13CheckboxFillController.swift */,
+				3BE2A4711D3FB306CE8B685476D65331 /* M13CheckboxFlatController.swift */,
+				0EB1CF1F5AC986724FD49CDF159D7C71 /* M13CheckboxGestureRecognizer.swift */,
+				24A92E263CDE327137CEA4069A56728E /* M13CheckboxPathGenerator.swift */,
+				E48BE455FE337380676226FDD76BE33F /* M13CheckboxRadioPathGenerator.swift */,
+				62F3C1FFEAC2A83236FDADD894B93797 /* M13CheckboxSpiralController.swift */,
+				5D78B616DAFB3684FFB1054262DF2369 /* M13CheckboxStrokeController.swift */,
+				C7520CC123FD9A7458586C1618FBA37F /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		ECAFF90AD36EA01ADAD3F35C11D5EA0A /* Pods-BIGroup */ = {
+			isa = PBXGroup;
+			children = (
+				021EE30AC8A1AA6D13EB1CB301BF241B /* Info.plist */,
+				FAE3D3318F5EE467B18EDFDA04FC1182 /* Pods-BIGroup.modulemap */,
+				E95F6EAE9F07B08A957BED05E0FC9960 /* Pods-BIGroup-acknowledgements.markdown */,
+				13ABCBC4215FEECCF0B2C04E418D5E60 /* Pods-BIGroup-acknowledgements.plist */,
+				3402FC99065AC3EA8894E4D772AC69C9 /* Pods-BIGroup-dummy.m */,
+				DDD50636A73A7BF56BBFDBF19BC0A080 /* Pods-BIGroup-frameworks.sh */,
+				B1E9EF3BD0A024815BAD693ECE6886A1 /* Pods-BIGroup-resources.sh */,
+				3F1DD59DCBE2E159360B88D352B73293 /* Pods-BIGroup-umbrella.h */,
+				30F7CE483A2720ED13DEB9C8DACBBB23 /* Pods-BIGroup.debug.xcconfig */,
+				64EF4021E1E29E1F3D661C9486A6386C /* Pods-BIGroup.release.xcconfig */,
+			);
+			name = "Pods-BIGroup";
+			path = "Target Support Files/Pods-BIGroup";
+			sourceTree = "<group>";
+		};
+		EF5A20D797167090B816D7610EB6D4CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFED35D063974D5433314A32F314BF8 /* KYDrawerController.framework */,
+				77467E7B3DD9C6405343D59448F13641 /* M13Checkbox.framework */,
+				D2A8B255182D805FCCD8C504FBEC3468 /* Pods_BIGroup.framework */,
+				071C3F9E86169A6CDCB6BA0D6AF85CED /* SwiftRangeSlider.framework */,
+				34A5FDA1D8608B3095C22D028ECD32E8 /* UPCarouselFlowLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54B496EA9A42463680A54B5DBB28CC27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1BF8AEF8BFA2B985BEC6566E470C08 /* UPCarouselFlowLayout-umbrella.h in Headers */,
+				1E781C386ECFD30AD14BFBC8DA2E1AD3 /* UPCarouselFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714DC262BF2FB332E82AC2E7CD6D73D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7F6283CE6F6418FD195E43D2216FBF /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F522C0522F6102E735FC7B74623D435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B449845871F8DA880D40BE4935EC56 /* KYDrawerController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AD9D0BAF3B7FAC32FEB343A2ED4A6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232CE6C295B30B137B7E547128A1133 /* Pods-BIGroup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0996C064981A66D10DD6FC9D94CE6EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F924924950C710098BA168884604FAE8 /* SwiftRangeSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		118286801F205EC5E853899917A5FDB8 /* Pods-BIGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A587C757738D8B7D560A07AFAD30BD93 /* Build configuration list for PBXNativeTarget "Pods-BIGroup" */;
+			buildPhases = (
+				EAD65714592EAC5B099808B21DD76C9D /* Sources */,
+				368521B0FA86C82337243E1347852A68 /* Frameworks */,
+				90AD9D0BAF3B7FAC32FEB343A2ED4A6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1E10805A2124DC2A0EC6A4D9CC2193 /* PBXTargetDependency */,
+				7A06D1A304C0634B614CCB026C3DDAE1 /* PBXTargetDependency */,
+				94E5C7C041889DB14D4E5295C698E6D8 /* PBXTargetDependency */,
+				C0F7990AE4377AA36CCD05B5ACEFFEFE /* PBXTargetDependency */,
+			);
+			name = "Pods-BIGroup";
+			productName = "Pods-BIGroup";
+			productReference = D2A8B255182D805FCCD8C504FBEC3468 /* Pods_BIGroup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08913436C5D3DFB2C8CEA353ED9FF003 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				923F4E7F3A2B8E74326EFD309DCEEE04 /* Sources */,
+				53797C5F84C3B718634123945FF8378E /* Frameworks */,
+				714DC262BF2FB332E82AC2E7CD6D73D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 77467E7B3DD9C6405343D59448F13641 /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74F118D4BD6A150EBDA55D3ABDC8841B /* UPCarouselFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC120CF9E70A80AD72497306BC67AEA9 /* Build configuration list for PBXNativeTarget "UPCarouselFlowLayout" */;
+			buildPhases = (
+				59D06DFC934D5040C7A4B8113983D8E1 /* Sources */,
+				3C0A05AA01DF104F42D26FE43A7F557F /* Frameworks */,
+				54B496EA9A42463680A54B5DBB28CC27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPCarouselFlowLayout;
+			productName = UPCarouselFlowLayout;
+			productReference = 34A5FDA1D8608B3095C22D028ECD32E8 /* UPCarouselFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235787AAA4D655650FA93DB4FB2D308A /* Build configuration list for PBXNativeTarget "KYDrawerController" */;
+			buildPhases = (
+				1BA042EDEFD683F56F2F5063EC1B98EB /* Sources */,
+				9FB1EF2F8A9886B7F0713F557C0356DF /* Frameworks */,
+				8F522C0522F6102E735FC7B74623D435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDrawerController;
+			productName = KYDrawerController;
+			productReference = FAFED35D063974D5433314A32F314BF8 /* KYDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA317EC300B6A58E900F9FB8B38C08CD /* SwiftRangeSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E82A9FCF3E209F60EDB48226CFC69BD /* Build configuration list for PBXNativeTarget "SwiftRangeSlider" */;
+			buildPhases = (
+				5C2EB7633E5B68CCC4D1604D6BD1FBFD /* Sources */,
+				6A4F4A5624E6F605F63D0A9E60F7DEC9 /* Frameworks */,
+				D0996C064981A66D10DD6FC9D94CE6EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftRangeSlider;
+			productName = SwiftRangeSlider;
+			productReference = 071C3F9E86169A6CDCB6BA0D6AF85CED /* SwiftRangeSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EF5A20D797167090B816D7610EB6D4CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */,
+				20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */,
+				118286801F205EC5E853899917A5FDB8 /* Pods-BIGroup */,
+				CA317EC300B6A58E900F9FB8B38C08CD /* SwiftRangeSlider */,
+				74F118D4BD6A150EBDA55D3ABDC8841B /* UPCarouselFlowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA042EDEFD683F56F2F5063EC1B98EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC40F18DBFFCACF3FA032B58571B781 /* KYDrawerController-dummy.m in Sources */,
+				74EBEC8F9277C0056FF08F806E75EB4F /* KYDrawerController.swift in Sources */,
+				FE020C0F86B9EBDE87399EC0136682FE /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				05ED5B55D8AAD30623AEB9B36430D576 /* KYEmbedMainControllerSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D06DFC934D5040C7A4B8113983D8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82B71A65C79941567E02401E96010AD /* Info.plist in Sources */,
+				2D022E7BB28D6B7D723B286F7E0BCA60 /* UPCarouselFlowLayout-dummy.m in Sources */,
+				850EB8F54CA9B2802E7D57E6719E5410 /* UPCarouselFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2EB7633E5B68CCC4D1604D6BD1FBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				950315382A5C5EA717EF07FFF52FBDFC /* RangeSlider.swift in Sources */,
+				A38175771ADC96D34E245B5BC689C69C /* RangeSliderKnob.swift in Sources */,
+				A19AF75AFB6877B5A50B9ABD41A9680E /* RangeSliderTrack.swift in Sources */,
+				70FB226215B58D6D8E03C637BAEEDC93 /* SwiftRangeSlider-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923F4E7F3A2B8E74326EFD309DCEEE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2FFD3C073383B859F71C2B1411FA89 /* M13Checkbox+IB.swift in Sources */,
+				AAE54CDA46FD620F4BC54BC583EA255C /* M13Checkbox-dummy.m in Sources */,
+				445378EF15B25DB3370FF77B2F6F42D7 /* M13Checkbox.swift in Sources */,
+				8ED3FB14D1852DD05FDF6E23E94A4657 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				C6D0B50C214C9E7CC815F2773D702779 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				F7A5B0214108C732898DD2C00BA6FE56 /* M13CheckboxBounceController.swift in Sources */,
+				C8D41C0D4E89BE8510BA40F04EFF4FA8 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				C277B9EAC728D880FF1F15EE98C8B200 /* M13CheckboxController.swift in Sources */,
+				3AFA54C6DC0961AD0F4CC8A4F1AF915E /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				80E34254247C5B1984E2FB9EC58774E4 /* M13CheckboxDotController.swift in Sources */,
+				BCB82BDDA7C30F0B0AFE479CC479B522 /* M13CheckboxExpandController.swift in Sources */,
+				FFF489DE367C237C0E8F7E4442DA06D7 /* M13CheckboxFadeController.swift in Sources */,
+				80CD994ABA1A2B01AD1838A4D4BB794C /* M13CheckboxFillController.swift in Sources */,
+				3D976DD35C822B9B6971ED06121B4A44 /* M13CheckboxFlatController.swift in Sources */,
+				D6039515F84B2167BBAC8D1CE12A5F4E /* M13CheckboxGestureRecognizer.swift in Sources */,
+				76D3E2602CFAE6474D2DFA89F5328A24 /* M13CheckboxPathGenerator.swift in Sources */,
+				85CB53B9E438E280DA1690CCFD778689 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				FA2B271AAF040F6C1B860C6C3DF0558F /* M13CheckboxSpiralController.swift in Sources */,
+				40897730B01BE8C60FB61A02DD7A1F6A /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD65714592EAC5B099808B21DD76C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029D3BC73FA2037A9AD915E7AAA69E37 /* Pods-BIGroup-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A06D1A304C0634B614CCB026C3DDAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 20A9DD9ABBF08BC57372A26C35327BF1 /* M13Checkbox */;
+			targetProxy = 25B16FBA9FC6C24A9508B5E652492DAE /* PBXContainerItemProxy */;
+		};
+		7D1E10805A2124DC2A0EC6A4D9CC2193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYDrawerController;
+			target = 7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */;
+			targetProxy = 17EF43DDE43759B4E0AA055FA73CD288 /* PBXContainerItemProxy */;
+		};
+		94E5C7C041889DB14D4E5295C698E6D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftRangeSlider;
+			target = CA317EC300B6A58E900F9FB8B38C08CD /* SwiftRangeSlider */;
+			targetProxy = 85FD550C8733B6E21DB26DA5A26202AA /* PBXContainerItemProxy */;
+		};
+		C0F7990AE4377AA36CCD05B5ACEFFEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPCarouselFlowLayout;
+			target = 74F118D4BD6A150EBDA55D3ABDC8841B /* UPCarouselFlowLayout */;
+			targetProxy = 202E8B04218634C01325C267036DC8BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0241C69DB86CFE9C95F781C0F7848B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3951281C7A501FE370E0E2F47BFFCE45 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		044AD3C84526AE24FB630B3F13C97D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F77F9ECF10E179B409282A689DA7DC0 /* UPCarouselFlowLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UPCarouselFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0CFA93FDE2868809E2029EC22FDDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FEDF71DE0CD123D4A081F95FD3CDB2 /* SwiftRangeSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftRangeSlider/SwiftRangeSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftRangeSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftRangeSlider/SwiftRangeSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FBD9BF9F2BECA3E98B23AA34CD42A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F7CE483A2720ED13DEB9C8DACBBB23 /* Pods-BIGroup.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BIGroup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BIGroup/Pods-BIGroup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BIGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57B3B2DA8B4854C34198CF0586265FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2154237201FA873AA573A3F7E5A2F69F /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AE8FB1C254FC571650B5B457A9D17E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F77F9ECF10E179B409282A689DA7DC0 /* UPCarouselFlowLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UPCarouselFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72C98821B0F8296FF72FD6F057F30D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FEDF71DE0CD123D4A081F95FD3CDB2 /* SwiftRangeSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftRangeSlider/SwiftRangeSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftRangeSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftRangeSlider/SwiftRangeSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B99F646D4B2652928D787694A7A909CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3951281C7A501FE370E0E2F47BFFCE45 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D54D42F624C171D55458CD8361D2FF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EF4021E1E29E1F3D661C9486A6386C /* Pods-BIGroup.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BIGroup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BIGroup/Pods-BIGroup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BIGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E125AB642AFEAA8B6B2EEC07F460B3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2154237201FA873AA573A3F7E5A2F69F /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08913436C5D3DFB2C8CEA353ED9FF003 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0241C69DB86CFE9C95F781C0F7848B9E /* Debug */,
+				B99F646D4B2652928D787694A7A909CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235787AAA4D655650FA93DB4FB2D308A /* Build configuration list for PBXNativeTarget "KYDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E125AB642AFEAA8B6B2EEC07F460B3FD /* Debug */,
+				57B3B2DA8B4854C34198CF0586265FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E82A9FCF3E209F60EDB48226CFC69BD /* Build configuration list for PBXNativeTarget "SwiftRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C98821B0F8296FF72FD6F057F30D31 /* Debug */,
+				2D0CFA93FDE2868809E2029EC22FDDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A587C757738D8B7D560A07AFAD30BD93 /* Build configuration list for PBXNativeTarget "Pods-BIGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBD9BF9F2BECA3E98B23AA34CD42A57 /* Debug */,
+				D54D42F624C171D55458CD8361D2FF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC120CF9E70A80AD72497306BC67AEA9 /* Build configuration list for PBXNativeTarget "UPCarouselFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044AD3C84526AE24FB630B3F13C97D09 /* Debug */,
+				5AE8FB1C254FC571650B5B457A9D17E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
