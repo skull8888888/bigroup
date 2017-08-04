@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KYDrawerController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>118286801F205EC5E853899917A5FDB8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>20A9DD9ABBF08BC57372A26C35327BF1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>74F118D4BD6A150EBDA55D3ABDC8841B</key>
+		<key>51AD4AF68787DF9C21734A922D38EEDB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CA317EC300B6A58E900F9FB8B38C08CD</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED612891C7638A7D9A70626FF776AB2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8CC97E93BE01AB444EB47E38E96ACCF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

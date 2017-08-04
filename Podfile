@@ -7,7 +7,10 @@ target 'BIGroup' do
 
   # Pods for BIGroup
   pod 'KYDrawerController'
-  pod "UPCarouselFlowLayout"
+  pod 'UPCarouselFlowLayout'
   pod 'M13Checkbox'
   pod 'SwiftRangeSlider', '~> 1.0'
+  pod 'Alamofire', '~> 4.4'  
+  pod 'Fabric'
+  pod 'Crashlytics'
 end

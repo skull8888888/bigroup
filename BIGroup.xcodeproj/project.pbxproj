@@ -12,6 +12,7 @@
 		2F11FA851F15F1EE00711E85 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F11FA841F15F1EE00711E85 /* InputView.swift */; };
 		2F11FA881F15F81100711E85 /* ResaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F11FA871F15F81100711E85 /* ResaleViewController.swift */; };
 		2F11FA8A1F15F8CB00711E85 /* ResaleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F11FA891F15F8CB00711E85 /* ResaleView.xib */; };
+		2F13753B1F220CF400E76F15 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13753A1F220CF400E76F15 /* Model.swift */; };
 		2F31F5991F14C3FB00F13F9C /* PartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F31F5981F14C3FB00F13F9C /* PartView.xib */; };
 		2F31F59B1F14CA3000F13F9C /* PartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F31F59A1F14CA3000F13F9C /* PartViewController.swift */; };
 		2F31F59D1F14CB7A00F13F9C /* StandartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F31F59C1F14CB7A00F13F9C /* StandartViewController.swift */; };
@@ -61,6 +62,7 @@
 		2F11FA841F15F1EE00711E85 /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		2F11FA871F15F81100711E85 /* ResaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResaleViewController.swift; sourceTree = "<group>"; };
 		2F11FA891F15F8CB00711E85 /* ResaleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResaleView.xib; sourceTree = "<group>"; };
+		2F13753A1F220CF400E76F15 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		2F31F5981F14C3FB00F13F9C /* PartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PartView.xib; sourceTree = "<group>"; };
 		2F31F59A1F14CA3000F13F9C /* PartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartViewController.swift; sourceTree = "<group>"; };
 		2F31F59C1F14CB7A00F13F9C /* StandartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandartViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,14 @@
 			name = Xibs;
 			sourceTree = "<group>";
 		};
+		2F1375391F220CCD00E76F15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F13753A1F220CF400E76F15 /* Model.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		2F31F59E1F14D12900F13F9C /* About */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +204,7 @@
 				2F787D8C1F0A2A280016E734 /* TableViewCells */,
 				2F787D9D1F0B59E60016E734 /* Views */,
 				2F11FA861F15F21800711E85 /* Xibs */,
+				2F1375391F220CCD00E76F15 /* Models */,
 				2F787D781F0A105F0016E734 /* Main.storyboard */,
 				2F787D891F0A27E70016E734 /* Extensions.swift */,
 				2F787D8F1F0A2D580016E734 /* Assets.xcassets */,
@@ -302,6 +313,7 @@
 				2F787D6F1F0A105F0016E734 /* Resources */,
 				3052C5C6A324B4C982091D3D /* [CP] Embed Pods Frameworks */,
 				67063AEA6DE2991EA4064DE9 /* [CP] Copy Pods Resources */,
+				2F69DA7D1F222A1F00E8C538 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -324,8 +336,8 @@
 				TargetAttributes = {
 					2F787D701F0A105F0016E734 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = WJ5RP6XBLX;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = P993BJWE94;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -373,6 +385,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2F69DA7D1F222A1F00E8C538 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 5a82da719ebfcda33549cfb59dbc0cb94055a23f 465293d7bcfd2069a0049df81c5bf7c3cd8c04323f553527bc78c1abb96fbda4";
+		};
 		3052C5C6A324B4C982091D3D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,6 +466,7 @@
 				2F31F59D1F14CB7A00F13F9C /* StandartViewController.swift in Sources */,
 				2FEF958C1F17427C004E9307 /* AparFilterViewController.swift in Sources */,
 				2F787DA51F0B9F040016E734 /* AparViewController.swift in Sources */,
+				2F13753B1F220CF400E76F15 /* Model.swift in Sources */,
 				2F787DA71F0BA4770016E734 /* ObjectsFilterViewController.swift in Sources */,
 				2F787D751F0A105F0016E734 /* AppDelegate.swift in Sources */,
 				2F787D991F0A612D0016E734 /* ObjectCollectionViewCell.swift in Sources */,
@@ -520,7 +547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -564,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -577,11 +604,14 @@
 			baseConfigurationReference = 3E943ECD34CCC1B270150130 /* Pods-BIGroup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WJ5RP6XBLX;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = P993BJWE94;
 				INFOPLIST_FILE = BIGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Octopus.BIGroup;
+				PRODUCT_BUNDLE_IDENTIFIER = Octopus.BIGroup.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb2fc74c-b9d7-4fbf-b4f5-5912da07831c";
+				PROVISIONING_PROFILE_SPECIFIER = Assel;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -591,11 +621,14 @@
 			baseConfigurationReference = 5B19E3C9CDAEC6767AEB1673 /* Pods-BIGroup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WJ5RP6XBLX;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = P993BJWE94;
 				INFOPLIST_FILE = BIGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Octopus.BIGroup;
+				PRODUCT_BUNDLE_IDENTIFIER = Octopus.BIGroup.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb2fc74c-b9d7-4fbf-b4f5-5912da07831c";
+				PROVISIONING_PROFILE_SPECIFIER = Assel;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

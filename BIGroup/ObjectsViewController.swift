@@ -22,6 +22,9 @@ class ObjectsViewController: UIViewController, UICollectionViewDataSource, UICol
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Model.get(.objects)
+        
+        
         let layout = UPCarouselFlowLayout()
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize(width: screen.width - 60, height: screen.height - 150)
