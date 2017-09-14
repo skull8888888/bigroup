@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2k-lA-Gpt">
                         <rect key="frame" x="0.0" y="0.0" width="367" height="411"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightHouse" translatesAutoresizingMaskIntoConstraints="NO" id="VYA-yA-F7b">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VYA-yA-F7b">
                                 <rect key="frame" x="0.0" y="0.0" width="367" height="255"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8HJ-1W-zYY">
@@ -50,6 +49,11 @@
                                                     <constraint firstAttribute="height" constant="32" id="Uvm-a7-BZ7"/>
                                                 </constraints>
                                                 <state key="normal" image="arrow-white"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -151,16 +155,15 @@
                 <outlet property="comLabel" destination="6Wc-g2-TCS" id="epL-2l-Vbv"/>
                 <outlet property="comNumLabel" destination="HFk-tf-ogN" id="x74-9u-Kby"/>
                 <outlet property="desLabel" destination="lrG-Bb-3bH" id="DPy-c9-R7M"/>
+                <outlet property="mainImageView" destination="VYA-yA-F7b" id="obQ-Ih-FPR"/>
+                <outlet property="nameLabel" destination="RIe-wn-FlD" id="mnC-zf-7S7"/>
                 <outlet property="priceLabel" destination="WMm-F2-yis" id="CLQ-Dn-fW7"/>
-                <outlet property="showButton" destination="yGF-cD-XNn" id="hJ4-9u-n8X"/>
-                <outlet property="titleLabel" destination="VYA-yA-F7b" id="seC-EZ-zxE"/>
             </connections>
             <point key="canvasLocation" x="47.5" y="454.5"/>
         </collectionViewCell>
     </objects>
     <resources>
         <image name="arrow-white" width="24" height="24"/>
-        <image name="lightHouse" width="320" height="280"/>
         <image name="map" width="24" height="24"/>
     </resources>
 </document>

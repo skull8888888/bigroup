@@ -20,6 +20,13 @@ class DropInputView: UIView {
         }
     }
     
+    @IBInspectable var disabled: Bool = false {
+        didSet{
+            textField.isUserInteractionEnabled = !disabled
+            textField.backgroundColor = UIColor.bgaPaleGrey
+        }
+    }
+    
     var items: [String]! {
         didSet {
             self.keyboardView = KeyboardView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.45), items: self.items)
@@ -86,16 +93,13 @@ class InputView: UIView {
         }
     }
     
-    var items: [String]! {
-        didSet {
-            self.keyboardView = KeyboardView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.45), items: self.items)
-            self.textField.inputView = self.keyboardView
-            
-            
-            print(items, "did set")
-            
+    @IBInspectable var disabled: Bool = false {
+        didSet{
+            textField.isUserInteractionEnabled = !disabled
+            textField.backgroundColor = UIColor.bgaPaleGrey
         }
     }
+    
     
     var bColor: UIColor! {
         didSet{
@@ -105,11 +109,7 @@ class InputView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         layout()
-
-        self.keyboardView = KeyboardView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.45), items: self.items)
-        self.textField.inputView = self.keyboardView
     }
     
     public required init?(coder aDecoder: NSCoder) {
@@ -135,6 +135,53 @@ class InputView: UIView {
     }
     
 }
+
+class InputAreaView: UIView {
+    
+    var textField: FloatLabelTextView!
+    
+    @IBInspectable var placeholder: String! {
+        didSet{
+            textField.hint = placeholder
+        }
+    }
+    
+    @IBInspectable var disabled: Bool = false {
+        didSet{
+            textField.isUserInteractionEnabled = !disabled
+            textField.backgroundColor = UIColor.bgaPaleGrey
+        }
+    }
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        layout()
+    }
+    
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        layout()
+    }
+    
+    func layout(){
+        
+        self.layer.cornerRadius = 2
+        self.layer.borderWidth = 1.5
+        self.layer.borderColor = UIColor.bgaPaleGreyTwo.cgColor
+        
+        
+        textField = FloatLabelTextView(frame: CGRect(x: 8, y: 4, width: self.frame.size.width - 16, height: self.frame.size.height - 8))
+        
+        textField.titleYPadding = 2
+        //        textField.hintYPadding = -6
+        textField.titleTextColour = UIColor.bgaSteel
+        textField.titleActiveTextColour = UIColor.bgaSteel
+        
+        self.addSubview(textField)
+    }
+    
+}
+
 
 class KeyboardView: UIView, UIPickerViewDataSource, UIPickerViewDelegate {
     

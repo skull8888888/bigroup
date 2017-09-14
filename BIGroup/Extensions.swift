@@ -10,7 +10,7 @@ import UIKit
 
 extension UIColor {
     class var bgaDarkishBlue: UIColor {
-        return UIColor(red: 0.0, green: 74.0 / 255.0, blue: 146.0 / 255.0, alpha: 1.0)
+        return UIColor(red: 0.0, green: 67.0 / 255.0, blue: 148.0 / 255.0, alpha: 1.0)
     }
     
     class var bgaPaleGrey: UIColor {
@@ -178,6 +178,22 @@ extension UIFont {
 
 extension UIView {
     
+    @IBInspectable var isShadowEnabled: Bool {
+        
+        get {
+            return false
+        }
+        
+        set {
+            self.layer.shadowColor = UIColor.black.cgColor
+            self.layer.shadowOpacity = 0.3
+            self.layer.shadowOffset = CGSize(width: 0, height: 2)
+            self.layer.shadowRadius = 2
+            self.layer.shouldRasterize = true
+        }
+    }
+    
+    
     @IBInspectable var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
@@ -212,6 +228,20 @@ extension UIView {
         view.frame = frame
         
         return view
+    }
+    
+    func insertSeparatorAt(y: CGFloat){
+        
+        let path = UIBezierPath()
+        path.move(to: CGPoint(x: 0, y: y))
+        path.addLine(to: CGPoint(x: UIScreen.main.bounds.width, y: y))
+        
+        let shapeLayer = CAShapeLayer()
+        shapeLayer.path = path.cgPath
+        shapeLayer.strokeColor = UIColor.bgaPaleGreyTwo.cgColor
+        shapeLayer.lineWidth = 2
+        
+        self.layer.addSublayer(shapeLayer)
     }
 
 }

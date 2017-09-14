@@ -13,6 +13,15 @@
 		2F11FA881F15F81100711E85 /* ResaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F11FA871F15F81100711E85 /* ResaleViewController.swift */; };
 		2F11FA8A1F15F8CB00711E85 /* ResaleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F11FA891F15F8CB00711E85 /* ResaleView.xib */; };
 		2F13753B1F220CF400E76F15 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13753A1F220CF400E76F15 /* Model.swift */; };
+		2F2946DC1F3D571E0075E9FC /* BIServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2946DB1F3D571E0075E9FC /* BIServiceTableViewCell.swift */; };
+		2F2946E21F3D5B180075E9FC /* BIServiceAddRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2946E11F3D5B180075E9FC /* BIServiceAddRequestViewController.swift */; };
+		2F2946E41F3D5B880075E9FC /* BIServiceAddRequestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F2946E31F3D5B880075E9FC /* BIServiceAddRequestView.xib */; };
+		2F2946E71F3D65250075E9FC /* ReferenceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2946E61F3D65250075E9FC /* ReferenceTableViewController.swift */; };
+		2F2946E91F3D664F0075E9FC /* ReferenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2946E81F3D664F0075E9FC /* ReferenceTableViewCell.swift */; };
+		2F2946EC1F3D67E20075E9FC /* ReferenceAddRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2946EB1F3D67E20075E9FC /* ReferenceAddRequestViewController.swift */; };
+		2F2946EE1F3D693F0075E9FC /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2946ED1F3D693F0075E9FC /* FloatLabelTextView.swift */; };
+		2F2946F01F3D6E220075E9FC /* ReferenceFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2946EF1F3D6E220075E9FC /* ReferenceFullViewController.swift */; };
+		2F2946F31F3D7CA60075E9FC /* NotifsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2946F21F3D7CA60075E9FC /* NotifsTableViewController.swift */; };
 		2F31F5991F14C3FB00F13F9C /* PartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F31F5981F14C3FB00F13F9C /* PartView.xib */; };
 		2F31F59B1F14CA3000F13F9C /* PartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F31F59A1F14CA3000F13F9C /* PartViewController.swift */; };
 		2F31F59D1F14CB7A00F13F9C /* StandartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F31F59C1F14CB7A00F13F9C /* StandartViewController.swift */; };
@@ -26,6 +35,16 @@
 		2F31F5BA1F153C1200F13F9C /* KeysView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F31F5B91F153C1200F13F9C /* KeysView.xib */; };
 		2F31F5BC1F15425100F13F9C /* DocsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F31F5BB1F15425100F13F9C /* DocsViewController.swift */; };
 		2F31F5C01F1542EE00F13F9C /* DocsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F31F5BF1F1542EE00F13F9C /* DocsView.xib */; };
+		2F3A47541F3A358A0093D1E9 /* NotifButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A47531F3A358A0093D1E9 /* NotifButtonView.xib */; };
+		2F3A47561F3A381A0093D1E9 /* NotifButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A47551F3A381A0093D1E9 /* NotifButtonView.swift */; };
+		2F3A47581F3A39BC0093D1E9 /* ProcessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A47571F3A39BC0093D1E9 /* ProcessView.xib */; };
+		2F3A475A1F3A3BFB0093D1E9 /* ProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A47591F3A3BFB0093D1E9 /* ProcessView.swift */; };
+		2F3EBB991F384E2C00190832 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3EBB981F384E2C00190832 /* ProfileViewController.swift */; };
+		2F3EBB9B1F384E5200190832 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3EBB9A1F384E5200190832 /* ProfileView.xib */; };
+		2F3EBB9D1F38527A00190832 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3EBB9C1F38527A00190832 /* UserView.swift */; };
+		2F3EBB9F1F3852C900190832 /* UserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3EBB9E1F3852C900190832 /* UserView.xib */; };
+		2F3EBBA11F38633100190832 /* MyAparFullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F3EBBA01F38633100190832 /* MyAparFullView.xib */; };
+		2F53B9981F3DBF8700E05CF6 /* NotifsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F53B9971F3DBF8700E05CF6 /* NotifsTableViewCell.swift */; };
 		2F787D751F0A105F0016E734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F787D741F0A105F0016E734 /* AppDelegate.swift */; };
 		2F787D771F0A105F0016E734 /* ObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F787D761F0A105F0016E734 /* ObjectsViewController.swift */; };
 		2F787D7A1F0A105F0016E734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F787D781F0A105F0016E734 /* Main.storyboard */; };
@@ -48,11 +67,41 @@
 		2F859B821F14B339000C108F /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F859B811F14B339000C108F /* FavoriteViewController.swift */; };
 		2F859B851F14B72D000C108F /* MortgageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F859B841F14B72D000C108F /* MortgageViewController.swift */; };
 		2F859B891F14B976000C108F /* MortgageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F859B881F14B976000C108F /* MortgageView.xib */; };
+		2F9ABAF91F3C400A00518BDA /* AgreementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9ABAF81F3C400A00518BDA /* AgreementTableViewCell.swift */; };
+		2F9ABAFB1F3C407E00518BDA /* AgreementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9ABAFA1F3C407E00518BDA /* AgreementTableViewController.swift */; };
+		2F9ABAFF1F3C420400518BDA /* AgreementHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9ABAFE1F3C420400518BDA /* AgreementHeaderView.xib */; };
+		2F9ABB011F3C49EE00518BDA /* ExtraAgreementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9ABB001F3C49EE00518BDA /* ExtraAgreementTableViewController.swift */; };
+		2F9ABB041F3C4BF000518BDA /* ExtraAgreementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9ABB021F3C4BF000518BDA /* ExtraAgreementTableViewCell.swift */; };
+		2F9ABB051F3C4BF000518BDA /* ExtraAgreementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9ABB031F3C4BF000518BDA /* ExtraAgreementTableViewCell.xib */; };
+		2F9ABB0A1F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9ABB081F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.swift */; };
+		2F9ABB0B1F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9ABB091F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.xib */; };
+		2F9ABB0E1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9ABB0C1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.swift */; };
+		2F9ABB0F1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9ABB0D1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.xib */; };
+		2F9ABB121F3C4FD700518BDA /* ExtraAgreementHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F9ABB111F3C4FD700518BDA /* ExtraAgreementHeaderView.xib */; };
+		2FB825791F3C77D6000D3607 /* PaymentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB825781F3C77D6000D3607 /* PaymentTableViewController.swift */; };
+		2FB8257C1F3C7937000D3607 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8257B1F3C7937000D3607 /* PaymentTableViewCell.swift */; };
+		2FB8257E1F3C7AB4000D3607 /* PaymentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8257D1F3C7AB4000D3607 /* PaymentHeaderView.xib */; };
+		2FB825821F3C7F35000D3607 /* ReceiptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB825811F3C7F35000D3607 /* ReceiptTableViewController.swift */; };
+		2FB825841F3C8065000D3607 /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB825831F3C8065000D3607 /* PropertyViewController.swift */; };
+		2FB825871F3C80B7000D3607 /* PropertyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FB825861F3C80B7000D3607 /* PropertyView.xib */; };
+		2FBFE0E01F3D502D004D1D18 /* BIServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFE0DF1F3D502D004D1D18 /* BIServiceTableViewController.swift */; };
+		2FBFE0E21F3D5277004D1D18 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBFE0E11F3D5277004D1D18 /* AddButtonView.swift */; };
+		2FBFE0E41F3D5288004D1D18 /* AddButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBFE0E31F3D5288004D1D18 /* AddButtonView.xib */; };
+		2FD74B791F3AF1AC009EC924 /* MyAparTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD74B781F3AF1AC009EC924 /* MyAparTableViewController.swift */; };
+		2FD74B7C1F3AF24E009EC924 /* MyAparTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD74B7A1F3AF24E009EC924 /* MyAparTableViewCell.swift */; };
+		2FD74B7D1F3AF24E009EC924 /* MyAparTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD74B7B1F3AF24E009EC924 /* MyAparTableViewCell.xib */; };
+		2FD74B801F3B0A80009EC924 /* MyAparProcessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD74B7E1F3B0A80009EC924 /* MyAparProcessTableViewCell.swift */; };
+		2FD74B811F3B0A80009EC924 /* MyAparProcessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD74B7F1F3B0A80009EC924 /* MyAparProcessTableViewCell.xib */; };
+		2FD74B841F3B0C16009EC924 /* MyAparSellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD74B821F3B0C16009EC924 /* MyAparSellTableViewCell.swift */; };
+		2FD74B851F3B0C16009EC924 /* MyAparSellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD74B831F3B0C16009EC924 /* MyAparSellTableViewCell.xib */; };
+		2FD74B881F3B2AE4009EC924 /* MyAparFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD74B871F3B2AE3009EC924 /* MyAparFullViewController.swift */; };
 		2FE0219C1F177EFE001CCE65 /* IssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0219B1F177EFE001CCE65 /* IssueViewController.swift */; };
 		2FE0219E1F177F14001CCE65 /* IssueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0219D1F177F14001CCE65 /* IssueView.xib */; };
 		2FE021A01F17CA11001CCE65 /* VisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0219F1F17CA11001CCE65 /* VisitViewController.swift */; };
 		2FEF958A1F16898A004E9307 /* AparFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FEF95891F16898A004E9307 /* AparFilterView.xib */; };
 		2FEF958C1F17427C004E9307 /* AparFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF958B1F17427C004E9307 /* AparFilterViewController.swift */; };
+		2FFCD8721F3C90A10081863A /* SellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFCD8711F3C90A10081863A /* SellViewController.swift */; };
+		2FFCD8741F3C90CB0081863A /* SellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FFCD8731F3C90CB0081863A /* SellView.xib */; };
 		B21661A298AD710823FC7FB2 /* Pods_BIGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A21FB63A66A00C3DBD6C4A /* Pods_BIGroup.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +112,15 @@
 		2F11FA871F15F81100711E85 /* ResaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResaleViewController.swift; sourceTree = "<group>"; };
 		2F11FA891F15F8CB00711E85 /* ResaleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResaleView.xib; sourceTree = "<group>"; };
 		2F13753A1F220CF400E76F15 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2F2946DB1F3D571E0075E9FC /* BIServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIServiceTableViewCell.swift; sourceTree = "<group>"; };
+		2F2946E11F3D5B180075E9FC /* BIServiceAddRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIServiceAddRequestViewController.swift; sourceTree = "<group>"; };
+		2F2946E31F3D5B880075E9FC /* BIServiceAddRequestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIServiceAddRequestView.xib; sourceTree = "<group>"; };
+		2F2946E61F3D65250075E9FC /* ReferenceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceTableViewController.swift; sourceTree = "<group>"; };
+		2F2946E81F3D664F0075E9FC /* ReferenceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceTableViewCell.swift; sourceTree = "<group>"; };
+		2F2946EB1F3D67E20075E9FC /* ReferenceAddRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceAddRequestViewController.swift; sourceTree = "<group>"; };
+		2F2946ED1F3D693F0075E9FC /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		2F2946EF1F3D6E220075E9FC /* ReferenceFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceFullViewController.swift; sourceTree = "<group>"; };
+		2F2946F21F3D7CA60075E9FC /* NotifsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifsTableViewController.swift; sourceTree = "<group>"; };
 		2F31F5981F14C3FB00F13F9C /* PartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PartView.xib; sourceTree = "<group>"; };
 		2F31F59A1F14CA3000F13F9C /* PartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartViewController.swift; sourceTree = "<group>"; };
 		2F31F59C1F14CB7A00F13F9C /* StandartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandartViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +134,16 @@
 		2F31F5B91F153C1200F13F9C /* KeysView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeysView.xib; sourceTree = "<group>"; };
 		2F31F5BB1F15425100F13F9C /* DocsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocsViewController.swift; sourceTree = "<group>"; };
 		2F31F5BF1F1542EE00F13F9C /* DocsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocsView.xib; sourceTree = "<group>"; };
+		2F3A47531F3A358A0093D1E9 /* NotifButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotifButtonView.xib; sourceTree = "<group>"; };
+		2F3A47551F3A381A0093D1E9 /* NotifButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifButtonView.swift; sourceTree = "<group>"; };
+		2F3A47571F3A39BC0093D1E9 /* ProcessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProcessView.xib; sourceTree = "<group>"; };
+		2F3A47591F3A3BFB0093D1E9 /* ProcessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessView.swift; sourceTree = "<group>"; };
+		2F3EBB981F384E2C00190832 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2F3EBB9A1F384E5200190832 /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		2F3EBB9C1F38527A00190832 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		2F3EBB9E1F3852C900190832 /* UserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserView.xib; sourceTree = "<group>"; };
+		2F3EBBA01F38633100190832 /* MyAparFullView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAparFullView.xib; sourceTree = "<group>"; };
+		2F53B9971F3DBF8700E05CF6 /* NotifsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifsTableViewCell.swift; sourceTree = "<group>"; };
 		2F787D711F0A105F0016E734 /* BIGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F787D741F0A105F0016E734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F787D761F0A105F0016E734 /* ObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsViewController.swift; sourceTree = "<group>"; };
@@ -100,11 +168,41 @@
 		2F859B811F14B339000C108F /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		2F859B841F14B72D000C108F /* MortgageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MortgageViewController.swift; sourceTree = "<group>"; };
 		2F859B881F14B976000C108F /* MortgageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MortgageView.xib; sourceTree = "<group>"; };
+		2F9ABAF81F3C400A00518BDA /* AgreementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreementTableViewCell.swift; sourceTree = "<group>"; };
+		2F9ABAFA1F3C407E00518BDA /* AgreementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreementTableViewController.swift; sourceTree = "<group>"; };
+		2F9ABAFE1F3C420400518BDA /* AgreementHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgreementHeaderView.xib; sourceTree = "<group>"; };
+		2F9ABB001F3C49EE00518BDA /* ExtraAgreementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraAgreementTableViewController.swift; sourceTree = "<group>"; };
+		2F9ABB021F3C4BF000518BDA /* ExtraAgreementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraAgreementTableViewCell.swift; sourceTree = "<group>"; };
+		2F9ABB031F3C4BF000518BDA /* ExtraAgreementTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraAgreementTableViewCell.xib; sourceTree = "<group>"; };
+		2F9ABB081F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraAgreementServiceTableViewCell.swift; sourceTree = "<group>"; };
+		2F9ABB091F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraAgreementServiceTableViewCell.xib; sourceTree = "<group>"; };
+		2F9ABB0C1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraAgreementPaymentTableViewCell.swift; sourceTree = "<group>"; };
+		2F9ABB0D1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraAgreementPaymentTableViewCell.xib; sourceTree = "<group>"; };
+		2F9ABB111F3C4FD700518BDA /* ExtraAgreementHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraAgreementHeaderView.xib; sourceTree = "<group>"; };
+		2FB825781F3C77D6000D3607 /* PaymentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTableViewController.swift; sourceTree = "<group>"; };
+		2FB8257B1F3C7937000D3607 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		2FB8257D1F3C7AB4000D3607 /* PaymentHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentHeaderView.xib; sourceTree = "<group>"; };
+		2FB825811F3C7F35000D3607 /* ReceiptTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewController.swift; sourceTree = "<group>"; };
+		2FB825831F3C8065000D3607 /* PropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
+		2FB825861F3C80B7000D3607 /* PropertyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyView.xib; sourceTree = "<group>"; };
+		2FBFE0DF1F3D502D004D1D18 /* BIServiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BIServiceTableViewController.swift; sourceTree = "<group>"; };
+		2FBFE0E11F3D5277004D1D18 /* AddButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		2FBFE0E31F3D5288004D1D18 /* AddButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddButtonView.xib; sourceTree = "<group>"; };
+		2FD74B781F3AF1AC009EC924 /* MyAparTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAparTableViewController.swift; sourceTree = "<group>"; };
+		2FD74B7A1F3AF24E009EC924 /* MyAparTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAparTableViewCell.swift; sourceTree = "<group>"; };
+		2FD74B7B1F3AF24E009EC924 /* MyAparTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAparTableViewCell.xib; sourceTree = "<group>"; };
+		2FD74B7E1F3B0A80009EC924 /* MyAparProcessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAparProcessTableViewCell.swift; sourceTree = "<group>"; };
+		2FD74B7F1F3B0A80009EC924 /* MyAparProcessTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAparProcessTableViewCell.xib; sourceTree = "<group>"; };
+		2FD74B821F3B0C16009EC924 /* MyAparSellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAparSellTableViewCell.swift; sourceTree = "<group>"; };
+		2FD74B831F3B0C16009EC924 /* MyAparSellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAparSellTableViewCell.xib; sourceTree = "<group>"; };
+		2FD74B871F3B2AE3009EC924 /* MyAparFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAparFullViewController.swift; sourceTree = "<group>"; };
 		2FE0219B1F177EFE001CCE65 /* IssueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueViewController.swift; sourceTree = "<group>"; };
 		2FE0219D1F177F14001CCE65 /* IssueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IssueView.xib; sourceTree = "<group>"; };
 		2FE0219F1F17CA11001CCE65 /* VisitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitViewController.swift; sourceTree = "<group>"; };
 		2FEF95891F16898A004E9307 /* AparFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AparFilterView.xib; sourceTree = "<group>"; };
 		2FEF958B1F17427C004E9307 /* AparFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AparFilterViewController.swift; sourceTree = "<group>"; };
+		2FFCD8711F3C90A10081863A /* SellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellViewController.swift; sourceTree = "<group>"; };
+		2FFCD8731F3C90CB0081863A /* SellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SellView.xib; sourceTree = "<group>"; };
 		3E943ECD34CCC1B270150130 /* Pods-BIGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIGroup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BIGroup/Pods-BIGroup.debug.xcconfig"; sourceTree = "<group>"; };
 		5B19E3C9CDAEC6767AEB1673 /* Pods-BIGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIGroup.release.xcconfig"; path = "Pods/Target Support Files/Pods-BIGroup/Pods-BIGroup.release.xcconfig"; sourceTree = "<group>"; };
 		D4A21FB63A66A00C3DBD6C4A /* Pods_BIGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BIGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +234,11 @@
 				2F11FA891F15F8CB00711E85 /* ResaleView.xib */,
 				2FE0219D1F177F14001CCE65 /* IssueView.xib */,
 				2FEF95891F16898A004E9307 /* AparFilterView.xib */,
+				2F3EBB9A1F384E5200190832 /* ProfileView.xib */,
+				2F3EBB9E1F3852C900190832 /* UserView.xib */,
+				2FB825851F3C8091000D3607 /* MyApar */,
+				2FBFE0E31F3D5288004D1D18 /* AddButtonView.xib */,
+				2F2946E31F3D5B880075E9FC /* BIServiceAddRequestView.xib */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -146,6 +249,57 @@
 				2F13753A1F220CF400E76F15 /* Model.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		2F2946DD1F3D5A800075E9FC /* BIService */ = {
+			isa = PBXGroup;
+			children = (
+				2FBFE0DF1F3D502D004D1D18 /* BIServiceTableViewController.swift */,
+				2F2946E11F3D5B180075E9FC /* BIServiceAddRequestViewController.swift */,
+			);
+			name = BIService;
+			sourceTree = "<group>";
+		};
+		2F2946DE1F3D5A9E0075E9FC /* BIService */ = {
+			isa = PBXGroup;
+			children = (
+				2F2946DB1F3D571E0075E9FC /* BIServiceTableViewCell.swift */,
+			);
+			name = BIService;
+			sourceTree = "<group>";
+		};
+		2F2946DF1F3D5AB00075E9FC /* Agreement */ = {
+			isa = PBXGroup;
+			children = (
+				2F9ABAFA1F3C407E00518BDA /* AgreementTableViewController.swift */,
+			);
+			name = Agreement;
+			sourceTree = "<group>";
+		};
+		2F2946E51F3D65030075E9FC /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				2F2946E61F3D65250075E9FC /* ReferenceTableViewController.swift */,
+				2F2946EB1F3D67E20075E9FC /* ReferenceAddRequestViewController.swift */,
+				2F2946EF1F3D6E220075E9FC /* ReferenceFullViewController.swift */,
+			);
+			name = Reference;
+			sourceTree = "<group>";
+		};
+		2F2946EA1F3D665A0075E9FC /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				2F2946E81F3D664F0075E9FC /* ReferenceTableViewCell.swift */,
+			);
+			name = Reference;
+			sourceTree = "<group>";
+		};
+		2F2946F11F3D7C8C0075E9FC /* Notifs */ = {
+			isa = PBXGroup;
+			children = (
+				2F2946F21F3D7CA60075E9FC /* NotifsTableViewController.swift */,
+			);
+			name = Notifs;
 			sourceTree = "<group>";
 		};
 		2F31F59E1F14D12900F13F9C /* About */ = {
@@ -175,6 +329,22 @@
 				2FE0219F1F17CA11001CCE65 /* VisitViewController.swift */,
 			);
 			name = Holders;
+			sourceTree = "<group>";
+		};
+		2F3EBB971F384E1600190832 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2F3EBB981F384E2C00190832 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		2F53B9961F3DBF5700E05CF6 /* Notifs */ = {
+			isa = PBXGroup;
+			children = (
+				2F53B9971F3DBF8700E05CF6 /* NotifsTableViewCell.swift */,
+			);
+			name = Notifs;
 			sourceTree = "<group>";
 		};
 		2F787D681F0A105F0016E734 = {
@@ -217,11 +387,8 @@
 		2F787D881F0A27170016E734 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				2F859B801F14B31A000C108F /* Main */,
-				2F859B831F14B6C6000C108F /* SalesInfo */,
-				2F31F59E1F14D12900F13F9C /* About */,
-				2F31F5AB1F15318A00F13F9C /* Info */,
-				2F31F5B41F153B9600F13F9C /* Holders */,
+				2FBFE0DD1F3D4FFE004D1D18 /* Guest */,
+				2FBFE0DE1F3D5010004D1D18 /* User */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -230,6 +397,9 @@
 			isa = PBXGroup;
 			children = (
 				2F787D861F0A270E0016E734 /* DrawerTableViewController.swift */,
+				2F9ABB001F3C49EE00518BDA /* ExtraAgreementTableViewController.swift */,
+				2FB825781F3C77D6000D3607 /* PaymentTableViewController.swift */,
+				2FB825811F3C7F35000D3607 /* ReceiptTableViewController.swift */,
 			);
 			name = TableViewControllers;
 			sourceTree = "<group>";
@@ -237,11 +407,13 @@
 		2F787D8C1F0A2A280016E734 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				2F787D8D1F0A2A4A0016E734 /* DrawerTableViewCell.swift */,
-				2F787D971F0A612D0016E734 /* ObjectCollectionViewCell.swift */,
-				2F787D981F0A612D0016E734 /* ObjectCollectionViewCell.xib */,
-				2F787DAC1F0CCD940016E734 /* AparTableViewCell.swift */,
-				2F00E8431F139626000C73B0 /* SalesTableViewCell.swift */,
+				2FB8257A1F3C7904000D3607 /* Payment */,
+				2F9ABB101F3C4D0E00518BDA /* Main */,
+				2F9ABB061F3C4C7B00518BDA /* MyApar */,
+				2F9ABB071F3C4C8600518BDA /* Agreement */,
+				2F2946DE1F3D5A9E0075E9FC /* BIService */,
+				2F2946EA1F3D665A0075E9FC /* Reference */,
+				2F53B9961F3DBF5700E05CF6 /* Notifs */,
 			);
 			name = TableViewCells;
 			sourceTree = "<group>";
@@ -250,9 +422,14 @@
 			isa = PBXGroup;
 			children = (
 				2F787DA81F0CAC060016E734 /* FloatLabelTextField.swift */,
+				2F2946ED1F3D693F0075E9FC /* FloatLabelTextView.swift */,
 				2F787D9E1F0B5A020016E734 /* ObjectView.swift */,
 				2F787DA01F0B5A260016E734 /* ObjectView.xib */,
 				2F11FA841F15F1EE00711E85 /* InputView.swift */,
+				2F3EBB9C1F38527A00190832 /* UserView.swift */,
+				2F3A47551F3A381A0093D1E9 /* NotifButtonView.swift */,
+				2F3A47591F3A3BFB0093D1E9 /* ProcessView.swift */,
+				2FBFE0E11F3D5277004D1D18 /* AddButtonView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -280,6 +457,104 @@
 				2F31F59C1F14CB7A00F13F9C /* StandartViewController.swift */,
 			);
 			name = SalesInfo;
+			sourceTree = "<group>";
+		};
+		2F9ABB061F3C4C7B00518BDA /* MyApar */ = {
+			isa = PBXGroup;
+			children = (
+				2FD74B7A1F3AF24E009EC924 /* MyAparTableViewCell.swift */,
+				2FD74B7B1F3AF24E009EC924 /* MyAparTableViewCell.xib */,
+				2FD74B7E1F3B0A80009EC924 /* MyAparProcessTableViewCell.swift */,
+				2FD74B7F1F3B0A80009EC924 /* MyAparProcessTableViewCell.xib */,
+				2FD74B821F3B0C16009EC924 /* MyAparSellTableViewCell.swift */,
+				2FD74B831F3B0C16009EC924 /* MyAparSellTableViewCell.xib */,
+			);
+			name = MyApar;
+			sourceTree = "<group>";
+		};
+		2F9ABB071F3C4C8600518BDA /* Agreement */ = {
+			isa = PBXGroup;
+			children = (
+				2F9ABAF81F3C400A00518BDA /* AgreementTableViewCell.swift */,
+				2F9ABB021F3C4BF000518BDA /* ExtraAgreementTableViewCell.swift */,
+				2F9ABB031F3C4BF000518BDA /* ExtraAgreementTableViewCell.xib */,
+				2F9ABB081F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.swift */,
+				2F9ABB091F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.xib */,
+				2F9ABB0C1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.swift */,
+				2F9ABB0D1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.xib */,
+			);
+			name = Agreement;
+			sourceTree = "<group>";
+		};
+		2F9ABB101F3C4D0E00518BDA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2F787D8D1F0A2A4A0016E734 /* DrawerTableViewCell.swift */,
+				2F787D971F0A612D0016E734 /* ObjectCollectionViewCell.swift */,
+				2F787D981F0A612D0016E734 /* ObjectCollectionViewCell.xib */,
+				2F787DAC1F0CCD940016E734 /* AparTableViewCell.swift */,
+				2F00E8431F139626000C73B0 /* SalesTableViewCell.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2FB8257A1F3C7904000D3607 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				2FB8257B1F3C7937000D3607 /* PaymentTableViewCell.swift */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		2FB825851F3C8091000D3607 /* MyApar */ = {
+			isa = PBXGroup;
+			children = (
+				2F3EBBA01F38633100190832 /* MyAparFullView.xib */,
+				2F3A47531F3A358A0093D1E9 /* NotifButtonView.xib */,
+				2F3A47571F3A39BC0093D1E9 /* ProcessView.xib */,
+				2F9ABAFE1F3C420400518BDA /* AgreementHeaderView.xib */,
+				2F9ABB111F3C4FD700518BDA /* ExtraAgreementHeaderView.xib */,
+				2FB8257D1F3C7AB4000D3607 /* PaymentHeaderView.xib */,
+				2FB825861F3C80B7000D3607 /* PropertyView.xib */,
+				2FFCD8731F3C90CB0081863A /* SellView.xib */,
+			);
+			name = MyApar;
+			sourceTree = "<group>";
+		};
+		2FBFE0DD1F3D4FFE004D1D18 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				2F3EBB971F384E1600190832 /* Profile */,
+				2F859B801F14B31A000C108F /* Main */,
+				2F859B831F14B6C6000C108F /* SalesInfo */,
+				2F31F59E1F14D12900F13F9C /* About */,
+				2F31F5AB1F15318A00F13F9C /* Info */,
+				2F31F5B41F153B9600F13F9C /* Holders */,
+			);
+			name = Guest;
+			sourceTree = "<group>";
+		};
+		2FBFE0DE1F3D5010004D1D18 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2FD74B861F3B2ACB009EC924 /* MyApar */,
+				2F2946DF1F3D5AB00075E9FC /* Agreement */,
+				2F2946DD1F3D5A800075E9FC /* BIService */,
+				2F2946E51F3D65030075E9FC /* Reference */,
+				2F2946F11F3D7C8C0075E9FC /* Notifs */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		2FD74B861F3B2ACB009EC924 /* MyApar */ = {
+			isa = PBXGroup;
+			children = (
+				2FD74B781F3AF1AC009EC924 /* MyAparTableViewController.swift */,
+				2FD74B871F3B2AE3009EC924 /* MyAparFullViewController.swift */,
+				2FB825831F3C8065000D3607 /* PropertyViewController.swift */,
+				2FFCD8711F3C90A10081863A /* SellViewController.swift */,
+			);
+			name = MyApar;
 			sourceTree = "<group>";
 		};
 		AE612CEB3CF8778494CEC641 /* Frameworks */ = {
@@ -366,19 +641,37 @@
 			files = (
 				2F31F5AA1F14DCDE00F13F9C /* ContactsView.xib in Resources */,
 				2F859B891F14B976000C108F /* MortgageView.xib in Resources */,
+				2FBFE0E41F3D5288004D1D18 /* AddButtonView.xib in Resources */,
+				2F9ABB051F3C4BF000518BDA /* ExtraAgreementTableViewCell.xib in Resources */,
 				2F31F5B31F1532E700F13F9C /* InfoView.xib in Resources */,
 				2F787D7F1F0A105F0016E734 /* LaunchScreen.storyboard in Resources */,
+				2F9ABB121F3C4FD700518BDA /* ExtraAgreementHeaderView.xib in Resources */,
 				2FE0219E1F177F14001CCE65 /* IssueView.xib in Resources */,
 				2F787D901F0A2D580016E734 /* Assets.xcassets in Resources */,
 				2F31F5C01F1542EE00F13F9C /* DocsView.xib in Resources */,
+				2FB825871F3C80B7000D3607 /* PropertyView.xib in Resources */,
 				2F787D7A1F0A105F0016E734 /* Main.storyboard in Resources */,
 				2F31F5A41F14D78B00F13F9C /* AboutView.xib in Resources */,
 				2F11FA8A1F15F8CB00711E85 /* ResaleView.xib in Resources */,
+				2F3A47581F3A39BC0093D1E9 /* ProcessView.xib in Resources */,
+				2F2946E41F3D5B880075E9FC /* BIServiceAddRequestView.xib in Resources */,
+				2F3EBBA11F38633100190832 /* MyAparFullView.xib in Resources */,
+				2F9ABAFF1F3C420400518BDA /* AgreementHeaderView.xib in Resources */,
+				2FFCD8741F3C90CB0081863A /* SellView.xib in Resources */,
 				2F31F5991F14C3FB00F13F9C /* PartView.xib in Resources */,
+				2F3A47541F3A358A0093D1E9 /* NotifButtonView.xib in Resources */,
 				2FEF958A1F16898A004E9307 /* AparFilterView.xib in Resources */,
+				2F3EBB9B1F384E5200190832 /* ProfileView.xib in Resources */,
 				2F787DA11F0B5A260016E734 /* ObjectView.xib in Resources */,
 				2F31F5BA1F153C1200F13F9C /* KeysView.xib in Resources */,
+				2F9ABB0F1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.xib in Resources */,
+				2FD74B7D1F3AF24E009EC924 /* MyAparTableViewCell.xib in Resources */,
+				2FD74B851F3B0C16009EC924 /* MyAparSellTableViewCell.xib in Resources */,
+				2F3EBB9F1F3852C900190832 /* UserView.xib in Resources */,
+				2F9ABB0B1F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.xib in Resources */,
 				2F787D9A1F0A612D0016E734 /* ObjectCollectionViewCell.xib in Resources */,
+				2FB8257E1F3C7AB4000D3607 /* PaymentHeaderView.xib in Resources */,
+				2FD74B811F3B0A80009EC924 /* MyAparProcessTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,36 +744,67 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB825841F3C8065000D3607 /* PropertyViewController.swift in Sources */,
+				2F2946EE1F3D693F0075E9FC /* FloatLabelTextView.swift in Sources */,
+				2F3A47561F3A381A0093D1E9 /* NotifButtonView.swift in Sources */,
 				2F31F5A61F14DCAC00F13F9C /* ContactsViewController.swift in Sources */,
 				2F00E8421F13923B000C73B0 /* SalesViewController.swift in Sources */,
 				2F787D8E1F0A2A4A0016E734 /* DrawerTableViewCell.swift in Sources */,
+				2F3EBB9D1F38527A00190832 /* UserView.swift in Sources */,
 				2F787DAE1F0CCD940016E734 /* AparTableViewCell.swift in Sources */,
+				2F3A475A1F3A3BFB0093D1E9 /* ProcessView.swift in Sources */,
 				2FE0219C1F177EFE001CCE65 /* IssueViewController.swift in Sources */,
 				2F859B821F14B339000C108F /* FavoriteViewController.swift in Sources */,
 				2F859B7F1F13F5E4000C108F /* CallbackViewController.swift in Sources */,
+				2FBFE0E21F3D5277004D1D18 /* AddButtonView.swift in Sources */,
 				2F31F5A01F14D6DE00F13F9C /* AboutViewController.swift in Sources */,
+				2F2946E21F3D5B180075E9FC /* BIServiceAddRequestViewController.swift in Sources */,
 				2F859B851F14B72D000C108F /* MortgageViewController.swift in Sources */,
 				2F787D771F0A105F0016E734 /* ObjectsViewController.swift in Sources */,
 				2F31F5AF1F1531CD00F13F9C /* InfoViewController.swift in Sources */,
+				2F2946E91F3D664F0075E9FC /* ReferenceTableViewCell.swift in Sources */,
 				2F11FA881F15F81100711E85 /* ResaleViewController.swift in Sources */,
+				2FD74B791F3AF1AC009EC924 /* MyAparTableViewController.swift in Sources */,
+				2F3EBB991F384E2C00190832 /* ProfileViewController.swift in Sources */,
+				2FD74B7C1F3AF24E009EC924 /* MyAparTableViewCell.swift in Sources */,
 				2F31F59D1F14CB7A00F13F9C /* StandartViewController.swift in Sources */,
+				2F9ABB0E1F3C4CF200518BDA /* ExtraAgreementPaymentTableViewCell.swift in Sources */,
+				2FD74B841F3B0C16009EC924 /* MyAparSellTableViewCell.swift in Sources */,
 				2FEF958C1F17427C004E9307 /* AparFilterViewController.swift in Sources */,
 				2F787DA51F0B9F040016E734 /* AparViewController.swift in Sources */,
+				2F9ABAF91F3C400A00518BDA /* AgreementTableViewCell.swift in Sources */,
+				2FB8257C1F3C7937000D3607 /* PaymentTableViewCell.swift in Sources */,
+				2FFCD8721F3C90A10081863A /* SellViewController.swift in Sources */,
+				2F2946F01F3D6E220075E9FC /* ReferenceFullViewController.swift in Sources */,
+				2FBFE0E01F3D502D004D1D18 /* BIServiceTableViewController.swift in Sources */,
 				2F13753B1F220CF400E76F15 /* Model.swift in Sources */,
 				2F787DA71F0BA4770016E734 /* ObjectsFilterViewController.swift in Sources */,
 				2F787D751F0A105F0016E734 /* AppDelegate.swift in Sources */,
 				2F787D991F0A612D0016E734 /* ObjectCollectionViewCell.swift in Sources */,
 				2F787D871F0A270E0016E734 /* DrawerTableViewController.swift in Sources */,
+				2F9ABB041F3C4BF000518BDA /* ExtraAgreementTableViewCell.swift in Sources */,
 				2F787D9F1F0B5A020016E734 /* ObjectView.swift in Sources */,
 				2F11FA851F15F1EE00711E85 /* InputView.swift in Sources */,
+				2F2946DC1F3D571E0075E9FC /* BIServiceTableViewCell.swift in Sources */,
 				2F31F5B61F153BEC00F13F9C /* KeysViewController.swift in Sources */,
 				2F787D9C1F0B579F0016E734 /* ObjectViewController.swift in Sources */,
+				2F2946F31F3D7CA60075E9FC /* NotifsTableViewController.swift in Sources */,
+				2FB825791F3C77D6000D3607 /* PaymentTableViewController.swift in Sources */,
 				2FE021A01F17CA11001CCE65 /* VisitViewController.swift in Sources */,
 				2F31F5BC1F15425100F13F9C /* DocsViewController.swift in Sources */,
+				2F2946E71F3D65250075E9FC /* ReferenceTableViewController.swift in Sources */,
+				2F9ABB011F3C49EE00518BDA /* ExtraAgreementTableViewController.swift in Sources */,
+				2FD74B801F3B0A80009EC924 /* MyAparProcessTableViewCell.swift in Sources */,
+				2F2946EC1F3D67E20075E9FC /* ReferenceAddRequestViewController.swift in Sources */,
+				2F9ABB0A1F3C4CD800518BDA /* ExtraAgreementServiceTableViewCell.swift in Sources */,
 				2F787DA91F0CAC060016E734 /* FloatLabelTextField.swift in Sources */,
 				2F00E8441F139626000C73B0 /* SalesTableViewCell.swift in Sources */,
+				2F9ABAFB1F3C407E00518BDA /* AgreementTableViewController.swift in Sources */,
+				2FB825821F3C7F35000D3607 /* ReceiptTableViewController.swift in Sources */,
 				2F787D8A1F0A27E70016E734 /* Extensions.swift in Sources */,
 				2F31F59B1F14CA3000F13F9C /* PartViewController.swift in Sources */,
+				2FD74B881F3B2AE4009EC924 /* MyAparFullViewController.swift in Sources */,
+				2F53B9981F3DBF8700E05CF6 /* NotifsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,8 +934,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Octopus.BIGroup.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bb2fc74c-b9d7-4fbf-b4f5-5912da07831c";
-				PROVISIONING_PROFILE_SPECIFIER = Assel;
+				PROVISIONING_PROFILE = "5fc98803-ff61-48af-b008-31a82d7f8ebc";
+				PROVISIONING_PROFILE_SPECIFIER = "Zhunusova BIGroup";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -627,8 +951,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Octopus.BIGroup.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bb2fc74c-b9d7-4fbf-b4f5-5912da07831c";
-				PROVISIONING_PROFILE_SPECIFIER = Assel;
+				PROVISIONING_PROFILE = "922a34f9-952f-4036-bc8e-a9194228c24b";
+				PROVISIONING_PROFILE_SPECIFIER = "Zhunusova BIGroup";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

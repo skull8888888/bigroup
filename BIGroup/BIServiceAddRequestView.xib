@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BIServiceAddRequestViewController" customModule="BIGroup" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1026"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuk-kF-anH">
+                    <rect key="frame" x="16" y="16" width="343" height="72"/>
+                    <string key="text">При возникновении вопросов, замечаний и предложений по качеству приобретенного жилья, Вы можете обратиться к нам, заполнив 
+«Заявление по - замечаниям клиента»</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваши данные" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2c-r5-rZH">
+                    <rect key="frame" x="16" y="96" width="343" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Syj-Z6-cy3">
+                    <rect key="frame" x="16" y="586" width="343" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-gk-xyi">
+                    <rect key="frame" x="16" y="612" width="343" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="8Qf-JA-hVK"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gp1-Ir-uhA">
+                    <rect key="frame" x="16" y="672" width="343" height="278"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffk-3L-dMV">
+                    <rect key="frame" x="16" y="966" width="343" height="44"/>
+                    <color key="backgroundColor" red="0.0" green="0.26274509800000001" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="aQD-VM-rIa"/>
+                    </constraints>
+                    <state key="normal" title="Подать заявку">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JQR-LZ-Axg">
+                    <rect key="frame" x="16" y="130" width="343" height="440"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAK-QP-9yI" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="jr8-Lb-7l2"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="ФИО"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WW5-b7-1fE" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="56" width="343" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="vr2-rV-vFi"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="ФИО"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vyl-cI-awb" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="112" width="343" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="OoJ-jj-QEu"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="ФИО"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNq-KJ-hzf" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="168" width="343" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="3Zo-CQ-b9P"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="ФИО"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X1b-sU-o5r" customClass="DropInputView" customModule="BIGroup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="224" width="343" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="Bvb-ph-jPX"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0tp-HJ-XG2" customClass="DropInputView" customModule="BIGroup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="280" width="343" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="1a9-rM-rl6"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o3i-bz-zmg" customClass="InputView" customModule="BIGroup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="336" width="343" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="ndn-DB-Tsf"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="ФИО"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eOk-LU-CqR" customClass="DropInputView" customModule="BIGroup" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="392" width="343" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="mYn-cU-S2n"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bdb-gk-xyi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="0ab-bw-JGd"/>
+                <constraint firstAttribute="trailing" secondItem="gp1-Ir-uhA" secondAttribute="trailing" constant="16" id="24E-su-1rL"/>
+                <constraint firstItem="Wuk-kF-anH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="4f8-xN-nMN"/>
+                <constraint firstItem="gp1-Ir-uhA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Bft-J5-EBl"/>
+                <constraint firstItem="Q2c-r5-rZH" firstAttribute="top" secondItem="Wuk-kF-anH" secondAttribute="bottom" constant="8" id="GPE-6Y-rt6"/>
+                <constraint firstAttribute="trailing" secondItem="bdb-gk-xyi" secondAttribute="trailing" constant="16" id="NOq-kA-Kbr"/>
+                <constraint firstItem="Q2c-r5-rZH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="RdI-51-cBP"/>
+                <constraint firstItem="Wuk-kF-anH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="SS6-ym-1yi"/>
+                <constraint firstItem="Syj-Z6-cy3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="V5V-56-DUs"/>
+                <constraint firstAttribute="trailing" secondItem="Ffk-3L-dMV" secondAttribute="trailing" constant="16" id="Vbn-Oc-u9L"/>
+                <constraint firstItem="Ffk-3L-dMV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="XZA-9C-gnj"/>
+                <constraint firstAttribute="trailing" secondItem="Syj-Z6-cy3" secondAttribute="trailing" constant="16" id="Y1N-bn-Zqr"/>
+                <constraint firstAttribute="trailing" secondItem="Q2c-r5-rZH" secondAttribute="trailing" constant="16" id="cPe-Xo-mWF"/>
+                <constraint firstItem="JQR-LZ-Axg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="ecj-Vf-Z3e"/>
+                <constraint firstAttribute="trailing" secondItem="JQR-LZ-Axg" secondAttribute="trailing" constant="16" id="hWO-oF-bPR"/>
+                <constraint firstItem="Syj-Z6-cy3" firstAttribute="top" secondItem="JQR-LZ-Axg" secondAttribute="bottom" constant="16" id="hdf-dX-d0g"/>
+                <constraint firstItem="gp1-Ir-uhA" firstAttribute="top" secondItem="bdb-gk-xyi" secondAttribute="bottom" constant="16" id="iWc-Wt-DgO"/>
+                <constraint firstItem="JQR-LZ-Axg" firstAttribute="top" secondItem="Q2c-r5-rZH" secondAttribute="bottom" constant="16" id="mhw-pZ-8Du"/>
+                <constraint firstItem="Ffk-3L-dMV" firstAttribute="top" secondItem="gp1-Ir-uhA" secondAttribute="bottom" constant="16" id="p22-LY-urH"/>
+                <constraint firstAttribute="bottom" secondItem="Ffk-3L-dMV" secondAttribute="bottom" constant="16" id="prz-sb-3Og"/>
+                <constraint firstAttribute="trailing" secondItem="Wuk-kF-anH" secondAttribute="trailing" constant="16" id="s1s-7s-gNe"/>
+                <constraint firstItem="bdb-gk-xyi" firstAttribute="top" secondItem="Syj-Z6-cy3" secondAttribute="bottom" constant="8" id="x92-px-X6C"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="234"/>
+        </view>
+    </objects>
+</document>

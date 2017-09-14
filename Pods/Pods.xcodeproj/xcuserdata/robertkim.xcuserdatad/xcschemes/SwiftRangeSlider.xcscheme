@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'ED612891C7638A7D9A70626FF776AB2F'
+               BlueprintIdentifier = '28202471BBAB29A0E88D56D3691FDCE0'
                BlueprintName = 'SwiftRangeSlider'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SwiftRangeSlider.framework'>

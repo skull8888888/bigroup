@@ -31,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ]
         
         UINavigationBar.appearance().isOpaque = false
+        UINavigationBar.appearance().isTranslucent = false
     
 //        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(-1000, -1000) , for: .default)
 //        UIBarButtonItem.appearance().setBackButtonBackgroundImage(UIImage(named:"back-white.png"), for: .normal, barMetrics: .default)

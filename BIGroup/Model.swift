@@ -10,8 +10,8 @@ import Foundation
 import Alamofire
 
 enum LinkType: String {
-    case objects = "http://webapi.bi-group.org/api/v1/MobileClient/realpropertylist"
-    case apars = ""
+    case objects = "/api/v1/salesbigroup/real_estate"
+    case myApars = "/api/v1/MobileClient/Property"
 }
 
 struct Model {
@@ -34,7 +34,7 @@ struct Model {
         
     }
     
-    static func get(_ type: LinkType ){
+    static func get(_ type: LinkType, _ parameters: Parameters? = ["": ""] , _ completion: @escaping (Any) -> ()){
         
         Model.token { token in
             
@@ -42,11 +42,11 @@ struct Model {
                 "token": token
             ]
             
-            Alamofire.request(type.rawValue, method: .get, headers: headers).responseJSON { response in
+            Alamofire.request("http://webapi.bi-group.org\(type.rawValue)", method: .get, parameters: parameters, headers: headers).responseJSON { response in
                 
                 
                 if let json = response.result.value {
-                    print("JSON: \(json)")
+                    completion(json)
                 } else {
                     print("bad json", response.result)
                 }
@@ -58,3 +58,19 @@ struct Model {
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

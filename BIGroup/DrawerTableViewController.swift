@@ -17,8 +17,20 @@ struct DrawerItem {
 
 class DrawerTableViewController: UITableViewController {
     
+    lazy var userView: UserView = {
+        let uv = UserView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 48))
+        
+        return uv
+    }()
     
     var items = [
+        [
+            DrawerItem(imageName: "apartments.png", title: "Мои квартиры", segue:"myApar"),
+            DrawerItem(imageName: "iabout.png", title: "BI Service", segue:"biservice"),
+            DrawerItem(imageName: "spravki.png", title: "Справки", segue:"reference"),
+            DrawerItem(imageName: "reports.png", title: "Отчеты", segue:"callback"),
+            DrawerItem(imageName: "notif.png", title: "Оповещения", segue: "notifs")
+        ],
         [
             DrawerItem(imageName: "objects.png", title: "Объекты", segue:"objects"),
             DrawerItem(imageName: "apartments.png", title: "Подбор квартир", segue:"apars"),
@@ -52,6 +64,7 @@ class DrawerTableViewController: UITableViewController {
     ]
     
     var sectionsArr = [
+        "Мое меню",
         "Основные",
         "Условия покупки",
         "О компании",
@@ -63,11 +76,30 @@ class DrawerTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        userView.tapped = {
+            if let parent = self.parent as? KYDrawerController {
+                
+                DispatchQueue.main.async {
+                    
+                    parent.performSegue(withIdentifier: "myProfile", sender: self)
+                    parent.setDrawerState(.closed, animated: true)
+                    
+                }
+                
+            }
+        }
+        
+        tableView.tableHeaderView = userView
+        
         tableView.backgroundColor = UIColor.bgaDarkishBlue
         tableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
+        tableView.contentOffset = CGPoint(x: 0, y: -20)
         tableView.estimatedRowHeight = 36
         print("ok")
     }
+    
+    
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return sectionsArr.count

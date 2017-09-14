@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>M13Checkbox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PDFReader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -29,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>UPCarouselFlowLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +52,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>096BD1CD291DC1DE13D6575D620B9327</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>20A9DD9ABBF08BC57372A26C35327BF1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>51AD4AF68787DF9C21734A922D38EEDB</key>
+		<key>211DBE73785718B5895779110F7C777D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28202471BBAB29A0E88D56D3691FDCE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F0C0F810568D3E82219429D9D870F04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4AD91245D17F62DC1343D9FB8DD3DC74</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ED612891C7638A7D9A70626FF776AB2F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F8CC97E93BE01AB444EB47E38E96ACCF</key>
+		<key>F710BBECB76266FF75359E63DE720D2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

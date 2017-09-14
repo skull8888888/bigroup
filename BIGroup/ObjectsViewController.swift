@@ -10,6 +10,9 @@
 import UIKit
 import UPCarouselFlowLayout
 import KYDrawerController
+import SwiftyJSON
+import Kingfisher
+import Alamofire
 
 class ObjectsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
     
@@ -17,13 +20,22 @@ class ObjectsViewController: UIViewController, UICollectionViewDataSource, UICol
     var screen = UIScreen.main.bounds
     
     
-//    var objects = []
+    var objects = [JSON]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Model.get(.objects)
-        
+        Model.get(.objects) { data in
+            
+            if let arr = JSON(data).array {
+             
+                self.objects = arr
+                
+                DispatchQueue.main.async {
+                    self.collectionView.reloadData()
+                }
+            }
+        }
         
         let layout = UPCarouselFlowLayout()
         layout.scrollDirection = .horizontal
@@ -43,11 +55,48 @@ class ObjectsViewController: UIViewController, UICollectionViewDataSource, UICol
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10//objects.count
+        return objects.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "objectCollectionCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "objectCollectionCell", for: indexPath) as! ObjectCollectionViewCell
+        
+        let object = objects[indexPath.row]
+        print(object)
+        
+        cell.nameLabel.text = object["name"].string
+        
+        print(object)
+        
+        if let urlString = object["logo_web"].string {
+        
+            var u = urlString.replacingOccurrences(of: "\\\\192.168.46.6\\отдел продаж\\Основные фото ЖК", with: "amg.bi-group.org:8081")
+            
+            let headers: HTTPHeaders = [
+                "": ""
+            ]
+            
+            Alamofire.request(u, method: .get, headers: headers).responseImage { response in
+                
+                
+                if let json = response.result.value {
+                    completion(json)
+                } else {
+                    print("bad json", response.result)
+                }
+                
+            }
+
+            
+            
+            if let url = URL(string: u) {
+                
+                print(url)
+            } else {
+                print("no url")
+            }
+        }
+        
         return cell
     }
     
